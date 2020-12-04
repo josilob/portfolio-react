@@ -1,5 +1,5 @@
 .navbar {
-	background: rgb(7, 7, 7);
+	background: #1f2235;
 	height: 70px;
 	display: flex;
 	justify-content: space-between;
@@ -21,31 +21,49 @@
 	align-items: center;
 	height: 70px;
 	line-height: 20px;
-	padding-right: 10px;
+	padding-right: 15px;
 }
 
-.dev {
-}
-
-.nav-links {
-	color: white;
+.nav-dev {
+	display: flex;
+	align-items: center;
+	height: 70px;
+	line-height: 20px;
+	color: #fe4a57;
 	text-decoration: none;
 	padding: 8px 14px;
 	font-family: 'The Historia Demo', sans-serif;
 }
 
+.nav-links {
+	color: #fe4a57;
+	text-decoration: none;
+	padding: 8px 14px;
+	font-family: 'The Historia Demo', sans-serif;
+	font-size: 26px;
+}
+.social-icons {
+	color: #fe4a57;
+	font-size: 32px;
+}
+.social-icons a {
+	padding-right: 10px;
+}
+.social-icons a:visited {
+	color: #fe4a57;
+}
 .nav-links:hover {
 	background-color: #1888ff;
 	border-radius: 4px;
 	transition: all 0.2s ease-out;
+	cursor: pointer;
 }
 
 .fa-bars {
-	color: #fff;
+	color: #fe4a57;
 }
-
-.nav-links-mobile {
-	display: none;
+.fa-times:before {
+	color: #fe4a57;
 }
 
 .menu-icon {
@@ -66,7 +84,7 @@
 	}
 
 	.nav-menu.active {
-		background: #242222;
+		background: #1f2235;
 		left: 0;
 		opacity: 1;
 		transition: all 0.5s ease;
@@ -105,6 +123,12 @@
 	.fa-times {
 		color: #fff;
 		font-size: 2rem;
+	}
+	.social-icons {
+		width: 90px;
+		position: fixed;
+		left: calc(50% - 45px);
+		font-size: 28px;
 	}
 }
 

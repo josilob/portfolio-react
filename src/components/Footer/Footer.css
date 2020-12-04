@@ -3,19 +3,19 @@
 	bottom: 0;
 	max-width: 100vw;
 	width: 100%;
-	background-color: #242222;
+	background-color: #1f2235;
 	height: 50px;
 	align-content: center;
 }
 
-.footer-p {
+.footer p {
 	font-size: 20px;
 	text-align: center;
-	color: white;
+	color: #fe4a57;
 }
 
-.footer-line {
+.footer hr {
 	width: 75%;
-	height: 1px;
+	border: 1px solid #fe4a57;
 	margin: 0 auto;
 }

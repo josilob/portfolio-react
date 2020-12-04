@@ -1,0 +1,21 @@
+.footer {
+	position: fixed;
+	bottom: 0;
+	max-width: 100vw;
+	width: 100%;
+	background-color: #242222;
+	height: 50px;
+	align-content: center;
+}
+
+.footer-p {
+	font-size: 20px;
+	text-align: center;
+	color: white;
+}
+
+.footer-line {
+	width: 75%;
+	height: 1px;
+	margin: 0 auto;
+}

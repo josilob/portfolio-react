@@ -4,7 +4,7 @@
 }
 /* //////////////////GREETING///////////////////// */
 #hello {
-	font-size: 26px;
+	font-size: 24px;
 	color: #fe4a57;
 	font-family: 'The Historia Demo', sans-serif;
 	font-family: 'Merienda', cursive;
@@ -18,19 +18,20 @@
 	-webkit-text-fill-color: transparent;
 	font-weight: 500;
 }
+
 /* /////////////////INTRO//////////////////////// */
 
 .intro {
 	display: grid;
 	grid-template-columns: 2fr 1fr 2fr;
+	position: relative;
 }
 .intro p {
 	font-family: 'Merienda', cursive;
 	font-size: 24px;
 	color: #f7b538;
-	width: 95%;
-	padding: 40px;
-	justify-self: space-around;
+	padding: 50px;
+	padding-left: 95px;
 }
 .intro h2 {
 	font-family: 'Merienda', cursive;
@@ -42,15 +43,25 @@
 .profile-pic {
 	overflow: hidden;
 	border-radius: 50%;
-	width: 220px;
-	height: 220px;
-	margin-top: 5px;
-	position: relative;
-	margin: auto;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	left: calc(50% - 110px);
+	top: calc(50% - 110px);
 }
 .profile-pic img {
 	object-fit: cover;
-	transform: scale(0.5) translateX(-250px) translateY(-280px);
+	transform: scale(0.52) translateX(-260px) translateY(-280px);
 }
-
+.intro h2 {
+	position: absolute;
+	top: 25%;
+	left: 70%;
+}
+.about > h2 {
+	font-family: 'Merienda', cursive;
+	color: #fe4a57;
+	font-size: 32px;
+	font-weight: 300;
+}
 /* ///////////////////////////////////////////// */

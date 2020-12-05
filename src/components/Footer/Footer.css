@@ -6,10 +6,11 @@
 	background-color: #1f2235;
 	height: 50px;
 	align-content: center;
+	font-family: 'Merienda', cursive;
 }
 
 .footer p {
-	font-size: 20px;
+	font-size: 17px;
 	text-align: center;
 	color: #fe4a57;
 }

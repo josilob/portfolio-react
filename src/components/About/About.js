@@ -7,16 +7,15 @@ function About() {
 			<div id='hello'>
 				<h2>Hello there!</h2>
 				<h1>I am Bojan</h1>
-				<h2>Find out more about me below</h2>
 			</div>
+			<h2>Everlearning inquisitor of technical sciences.</h2>
 			<div className='intro'>
 				<div>
 					<p>
-						A civil engineer and a full stack developer from New York. At the
-						crossroads between creativity and logic, I am fueled by
-						inspirational designs, server-side architecture and integration of
-						everything in one functional bond. Evelearning inquisitor, looking
-						to improve with each given opportunity.
+						I'm a full stack developer from New York. At the crossroads between
+						creativity and logic, I am fueled by inspirational designs,
+						server-side architecture and integration of everything in one
+						functional bond.
 						<br />
 					</p>
 				</div>
@@ -25,11 +24,11 @@ function About() {
 						<img src='profile.jpeg' alt='profile' id='prof-pic' />
 					</div>
 				</div>
-				<div>
+				<div className='dev'>
 					<h2>
-						Full <br />
-						stack <br />
-						developer <br />
+						Full stack <br />
+						<br />
+						developer
 					</h2>
 				</div>
 			</div>

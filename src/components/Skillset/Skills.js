@@ -2,9 +2,9 @@ import './Skills.css';
 
 function Skills() {
 	return (
-		<div className='skills'>
+		<div id='skills'>
 			<div>
-				<h2>My Skills</h2>
+				<h2>My Skillset</h2>
 				<h3>Expanding the list with each new opportunity</h3>
 			</div>
 			<div className='techstack'>
@@ -83,7 +83,7 @@ function Skills() {
 				</div>
 				<div className='tech-containers'>
 					<span
-						class='iconify'
+						className='iconify'
 						data-icon='logos:github-icon'
 						data-inline='false'></span>
 				</div>

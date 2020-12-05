@@ -1,0 +1,63 @@
+#projects {
+	margin-bottom: 260px;
+	padding-top: 50px;
+	background-color: #242a50;
+	min-height: 50vh;
+	display: grid;
+}
+#projects h2 {
+	color: #fe4a57;
+	font-family: 'The Historia Demo', sans-serif;
+	font-weight: 300;
+	font-size: 62px;
+}
+.projects-div {
+	margin: 20px auto;
+	width: 50%;
+	max-width: 1024px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.project-card:nth-of-type(1) {
+	background-image: url('cineprime.png');
+}
+.project-card:nth-of-type(2) {
+	background-image: url('MDL.png');
+}
+.project-card:nth-of-type(3) {
+	background-image: url('Hops.png');
+}
+.project-card:nth-of-type(4) {
+	background-image: url('tunr.png');
+}
+
+.project-card {
+	width: 45%;
+	height: 240px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.btn-wrap {
+	position: absolute;
+	left: calc(50% - 80px);
+	bottom: 5px;
+}
+
+.btn {
+	height: 30px;
+	width: 80px;
+	border: 2px solid #f7b538;
+	border-radius: 10px;
+	opacity: 0.75;
+	font-size: 16px;
+	font-family: 'Merienda', cursive;
+}
+.btn:hover {
+}

@@ -8,29 +8,29 @@ function Nav() {
 	const closeBurger = () => setClick(false);
 
 	return (
-		<nav className='navbar'>
+		<nav id='navbar'>
 			<div className='menu-icon' onClick={handleClick}>
 				<i className={click ? 'fas fa-times' : 'fas fa-bars'} />
 			</div>
 			<h2 className='nav-dev'>dev-b</h2>
 			<ul className={click ? 'nav-menu active' : 'nav-menu'}>
 				<li className='nav-item dev'>
-					<a href='#' className='nav-links' onClick={closeBurger}>
+					<a href='#about' className='nav-links' onClick={closeBurger}>
 						About
 					</a>
 				</li>
 				<li className='nav-item'>
-					<a href='#' className='nav-links' onClick={closeBurger}>
+					<a href='#skills' className='nav-links' onClick={closeBurger}>
 						Techstack
 					</a>
 				</li>
 				<li className='nav-item'>
-					<a href='#' className='nav-links' onClick={closeBurger}>
+					<a href='#projects' className='nav-links' onClick={closeBurger}>
 						My Work
 					</a>
 				</li>
 				<li className='nav-item'>
-					<a href='#' className='nav-links' onClick={closeBurger}>
+					<a href='#contact' className='nav-links' onClick={closeBurger}>
 						Contact
 					</a>
 				</li>

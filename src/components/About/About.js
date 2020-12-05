@@ -3,16 +3,16 @@ import './About.css';
 
 function About() {
 	return (
-		<div className='about'>
+		<div id='about'>
 			<div id='hello'>
 				<h2>Hello there!</h2>
 				<h1>I am Bojan</h1>
 			</div>
-			<h2>Everlearning inquisitor of technical sciences.</h2>
+			<h2>Everlearning inquisitor of technical sciences</h2>
 			<div className='intro'>
 				<div>
 					<p>
-						I'm a full stack developer from New York. At the crossroads between
+						I'm a full stack developer from NY. At the crossroads between
 						creativity and logic, I am fueled by inspirational designs,
 						server-side architecture and integration of everything in one
 						functional bond.

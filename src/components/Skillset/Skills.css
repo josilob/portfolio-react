@@ -1,13 +1,23 @@
-.skills {
+#skills {
 	padding-bottom: 250px;
 	padding-top: 50px;
 	position: relative;
+	background: #242a50;
+	color: #fe4a57;
+	font-family: 'The Historia Demo', sans-serif;
 }
-.skills h2 {
+#skills div {
+	line-height: 2;
+}
+#skills h2 {
 	font-size: 42px;
+	font-weight: 300;
 }
-.skills h3 {
-	font-size: 28px;
+#skills h3 {
+	font-size: 26px;
+	font-weight: 300;
+	font-family: 'Merienda', cursive;
+	color: #f7b538;
 }
 .techstack {
 	display: flex;
@@ -23,7 +33,10 @@
 
 .tech-icons {
 	margin: 10px 20px;
+	background-color: #edead2;
+	border-radius: 5px;
 }
 .iconify {
 	font-size: 60px;
+	height: 100%;
 }

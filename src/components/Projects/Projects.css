@@ -13,8 +13,7 @@
 }
 .projects-div {
 	margin: 20px auto;
-	width: 50%;
-	max-width: 1024px;
+	max-width: 840px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
@@ -34,14 +33,17 @@
 }
 
 .project-card {
-	width: 45%;
-	height: 240px;
+	height: 200px;
+	width: 380px;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	border-radius: 5px;
 	margin-bottom: 20px;
 	position: relative;
+}
+.project-card:hover {
+	cursor: pointer;
 }
 
 .btn-wrap {
@@ -55,9 +57,11 @@
 	width: 80px;
 	border: 2px solid #f7b538;
 	border-radius: 10px;
-	opacity: 0.75;
+	opacity: 0;
 	font-size: 16px;
 	font-family: 'Merienda', cursive;
 }
 .btn:hover {
+	opacity: 1;
+	cursor: pointer;
 }

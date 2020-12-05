@@ -5,23 +5,26 @@
 	justify-content: space-between;
 	align-items: center;
 	font-size: 22px;
+	max-width: 100vw;
 }
 
 .nav-menu {
 	display: flex;
 	list-style: none;
 	text-align: center;
-	justify-content: start;
+	/* justify-content: start; */
 }
+
 .navbar h2 {
-	padding-left: 40px;
+	padding-left: 30px;
 }
+
 .nav-item {
 	display: flex;
 	align-items: center;
 	height: 70px;
 	line-height: 20px;
-	padding-right: 15px;
+	padding: 15px;
 }
 
 .nav-dev {
@@ -31,7 +34,7 @@
 	line-height: 20px;
 	color: #fe4a57;
 	text-decoration: none;
-	padding: 8px 14px;
+	padding: 8px 15px;
 	font-family: 'The Historia Demo', sans-serif;
 }
 
@@ -42,18 +45,25 @@
 	font-family: 'The Historia Demo', sans-serif;
 	font-size: 26px;
 }
+
 .social-icons {
 	color: #fe4a57;
 	font-size: 32px;
+	padding-right: 30px;
+	display: flex;
 }
+
 .social-icons a {
-	padding-right: 10px;
+	padding-left: 10px;
 }
+
 .social-icons a:visited {
 	color: #fe4a57;
 }
+
 .nav-links:hover {
-	background-color: #1888ff;
+	background-color: #f7b538;
+	color: #1f2235;
 	border-radius: 4px;
 	transition: all 0.2s ease-out;
 	cursor: pointer;
@@ -74,11 +84,11 @@
 	.nav-menu {
 		display: flex;
 		flex-direction: column;
-		width: 100%;
-		height: 100vh;
+		width: 100vw;
+		height: calc(100vh - 120px);
 		position: absolute;
-		top: 59px;
-		left: -100%;
+		top: 70px;
+		left: -100vw;
 		opacity: 1;
 		transition: all 0.5s ease;
 	}
@@ -93,13 +103,16 @@
 
 	.nav-links {
 		text-align: center;
-		padding: 2rem;
-		width: 100%;
+		padding: 16px;
+		width: 100vw;
 		display: table;
+		font-size: 30px;
+		margin-left: -30px;
 	}
 
 	.nav-links:hover {
-		background-color: #1888ff;
+		background-color: #f7b538;
+		color: #1f2235;
 		border-radius: 0;
 	}
 
@@ -116,14 +129,14 @@
 		top: 0;
 		right: 0;
 		transform: translate(-100%, 60%);
-		font-size: 1.8rem;
+		font-size: 29px;
 		cursor: pointer;
 	}
 
 	.fa-times {
-		color: #fff;
-		font-size: 2rem;
+		font-size: 32px;
 	}
+
 	.social-icons {
 		width: 90px;
 		position: fixed;

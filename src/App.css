@@ -1,10 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+@font-face {
+	font-family: 'The Historia Demo';
+	src: url('fonts/thehistoriademo-webfont.woff2') format('woff2'),
+		url('fonts/thehistoriademo-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
 * {
 	/* border: 1px solid red; */
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
+/*  
+#F7B538 -mustardy
+#1F2235 -indigoey
+#FE4A57 -reddish
+*/
 .App {
 	text-align: center;
 	min-height: calc (100vh - 120px);
+}
+body {
+	/* overflow: hidden; */
 }

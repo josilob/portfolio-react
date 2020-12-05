@@ -1,0 +1,56 @@
+.about {
+	min-height: calc(100vh - 120px);
+	background: #242a50;
+}
+/* //////////////////GREETING///////////////////// */
+#hello {
+	font-size: 26px;
+	color: #fe4a57;
+	font-family: 'The Historia Demo', sans-serif;
+	font-family: 'Merienda', cursive;
+	padding-top: 30px;
+}
+#hello h1 {
+	font-family: 'The Historia Demo';
+	font-size: 160px;
+	background: linear-gradient(to top, #f54784, #ffe838);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: 500;
+}
+/* /////////////////INTRO//////////////////////// */
+
+.intro {
+	display: grid;
+	grid-template-columns: 2fr 1fr 2fr;
+}
+.intro p {
+	font-family: 'Merienda', cursive;
+	font-size: 24px;
+	color: #f7b538;
+	width: 95%;
+	padding: 40px;
+	justify-self: space-around;
+}
+.intro h2 {
+	font-family: 'Merienda', cursive;
+	font-size: 36px;
+	color: #f7b538;
+	align-content: center;
+}
+
+.profile-pic {
+	overflow: hidden;
+	border-radius: 50%;
+	width: 220px;
+	height: 220px;
+	margin-top: 5px;
+	position: relative;
+	margin: auto;
+}
+.profile-pic img {
+	object-fit: cover;
+	transform: scale(0.5) translateX(-250px) translateY(-280px);
+}
+
+/* ///////////////////////////////////////////// */

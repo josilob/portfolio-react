@@ -15,22 +15,22 @@ function Nav() {
 			<h2 className='nav-dev'>dev-b</h2>
 			<ul className={click ? 'nav-menu active' : 'nav-menu'}>
 				<li className='nav-item dev'>
-					<a to='/drinks' className='nav-links' onClick={closeBurger}>
+					<a href='#' className='nav-links' onClick={closeBurger}>
 						About
 					</a>
 				</li>
 				<li className='nav-item'>
-					<a to='/about' className='nav-links' onClick={closeBurger}>
+					<a href='#' className='nav-links' onClick={closeBurger}>
 						Techstack
 					</a>
 				</li>
 				<li className='nav-item'>
-					<a to='/about' className='nav-links' onClick={closeBurger}>
+					<a href='#' className='nav-links' onClick={closeBurger}>
 						My Work
 					</a>
 				</li>
 				<li className='nav-item'>
-					<a to='/about' className='nav-links' onClick={closeBurger}>
+					<a href='#' className='nav-links' onClick={closeBurger}>
 						Contact
 					</a>
 				</li>

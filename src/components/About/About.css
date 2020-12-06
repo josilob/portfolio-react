@@ -7,7 +7,7 @@
 /* //////////////////GREETING///////////////////// */
 #hello {
 	font-size: 24px;
-	color: #fe4a57;
+	color: #f7b538;
 	font-family: 'Merienda', cursive;
 	padding-top: 30px;
 }
@@ -61,7 +61,7 @@
 }
 #about > h2 {
 	font-family: 'Merienda', cursive;
-	color: #fe4a57;
+	color: #f7b538;
 	font-size: 32px;
 	font-weight: 300;
 }

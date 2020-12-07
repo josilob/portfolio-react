@@ -24,12 +24,14 @@ function About() {
 						<img src='profile.jpeg' alt='profile' id='prof-pic' />
 					</div>
 				</div>
-				<div className='dev'>
-					<h2>
-						Full stack <br />
+				<div>
+					<p>
+						I'm a full stack developer from NY. At the crossroads between
+						creativity and logic, I am fueled by inspirational designs,
+						server-side architecture and integration of everything in one
+						functional bond.
 						<br />
-						developer
-					</h2>
+					</p>
 				</div>
 			</div>
 		</div>

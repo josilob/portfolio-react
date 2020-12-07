@@ -78,7 +78,6 @@
 .title {
 	position: absolute;
 	width: 500px;
-	left: 0;
 	top: 220px;
 	font-weight: 300;
 	font-size: 35px;
@@ -88,13 +87,16 @@
 	z-index: 1;
 	opacity: 0;
 }
-.card span {
+.proj-description {
 	font-family: 'Merienda', cursive;
-	font-size: 20px;
+	font-size: 16px;
+	text-align: center;
+	padding: 0 30px;
+	line-height: 2;
 }
 
 .card:hover .title {
-	top: 20px;
+	top: 30px;
 	opacity: 1;
 }
 
@@ -125,6 +127,63 @@
 	width: 100px;
 	padding: 5px;
 	text-align: center;
-
 	z-index: 1;
+}
+
+@media screen and (max-width: 768px) {
+	#projects h2 {
+		font-size: 52px;
+		width: 65%;
+		margin: 0 auto;
+	}
+	.card {
+		position: relative;
+		margin-top: 50px;
+		width: 420px;
+		height: 280px;
+		border-radius: 20px;
+		font-family: 'The Historia Demo', sans-serif;
+		overflow: hidden;
+	}
+	.card img {
+		width: 420px;
+		height: 280px;
+	}
+	.overlay {
+		display: block;
+		background: rgba(0, 0, 0, 0.65);
+	}
+	.title {
+		width: 420px;
+		top: 20px;
+		left: 0;
+		font-weight: 300;
+		font-size: 35px;
+		/* text-align: center; */
+		color: #fe4a57;
+		transition: top 0.5s ease;
+		z-index: 1;
+		opacity: 1;
+		margin: 0 auto;
+	}
+	.proj-description {
+		font-size: 14px;
+		padding: 0;
+		line-height: 2;
+		width: 80%;
+		margin: 0 auto;
+		text-align: center;
+		color: white;
+	}
+	.button-wrap {
+		opacity: 1;
+		width: 420px;
+	}
+	.card:hover .title {
+		top: 20px;
+	}
+	.btn {
+		background-color: #f7b538;
+		color: #1f2235;
+	}
 }

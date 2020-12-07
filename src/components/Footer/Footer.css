@@ -8,6 +8,7 @@
 	align-content: center;
 	font-family: 'Merienda', cursive;
 	z-index: 1;
+	overflow: hidden;
 }
 
 #footer p {

@@ -4,7 +4,7 @@
 	max-width: 1600px;
 	margin: 0 auto;
 }
-/* //////////////////GREETING///////////////////// */
+/* /////////////////GREETING///////////////////// */
 #hello {
 	font-size: 24px;
 	color: #f7b538;
@@ -26,30 +26,29 @@
 	display: grid;
 	grid-template-columns: 2fr 1fr 2fr;
 	position: relative;
+	padding-top: 80px;
 }
 .intro p {
 	font-family: 'Merienda', cursive;
 	font-size: 24px;
 	color: #f7b538;
-	padding: 50px;
-	padding-left: 95px;
+	width: 70%;
+	margin: 0 auto;
+	/* padding-left: 95px; */
 }
-.intro h2 {
-	font-family: 'Merienda', cursive;
-	font-size: 36px;
-	color: #f7b538;
-	align-content: center;
+.intro div {
+	position: relative;
 }
-
 .profile-pic {
 	overflow: hidden;
 	border-radius: 50%;
 	width: 200px;
 	height: 200px;
-	position: absolute;
-	left: calc(50% - 110px);
-	top: calc(50% - 110px);
+	/* /* position: absolute; */
+	left: calc(50% - 100px);
+	top: calc(50% - 100px);
 }
+
 .profile-pic img {
 	object-fit: cover;
 	transform: scale(0.52) translateX(-260px) translateY(-280px);

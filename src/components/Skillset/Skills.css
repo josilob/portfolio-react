@@ -1,10 +1,10 @@
 #skills {
-	padding-bottom: 250px;
-	padding-top: 50px;
+	padding: 50px;
 	position: relative;
 	background: #242a50;
 	color: #fe4a57;
 	font-family: 'The Historia Demo', sans-serif;
+	text-align: center;
 }
 
 #skills div {
@@ -30,18 +30,35 @@
 	flex-wrap: wrap;
 	justify-content: space-around;
 	padding-top: 40px;
-	position: absolute;
-	left: calc(50% - 30%);
+	/* position: absolute; */
+	/* left: calc(50% - 30%); */
 	padding: 20px;
+	text-align: center;
+	margin: 0 auto;
 }
 
 .tech-icons {
 	margin: 10px 20px;
-	background-color: #edead2;
+	background-color: #242a50;
 	border-radius: 5px;
 }
 
 .iconify {
 	font-size: 60px;
 	height: 100%;
+	padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+	.techstack {
+		width: 90%;
+	}
+	.iconify {
+		font-size: 50px;
+	}
+	.tech-icons {
+		margin: 10px 10px;
+		background-color: #242a50;
+		border-radius: 5px;
+	}
 }

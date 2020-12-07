@@ -4,19 +4,19 @@ import './Projects.css';
 function Projects() {
 	return (
 		<div id='projects'>
-			<h2>Below, I will share some of my previously made projects</h2>
+			<h2>You can see some of my previously made projects below</h2>
 			<div className='projects-div'>
 				<div className='card'>
 					<img src='cineprime.png' alt='project' />
 					<p className='title'>
 						Cineprime
 						<br />
-						<span>
+						<p className='proj-description'>
 							Movies browser/tracker. MERN stack group project with JWT
 							authentication. Offers signup/signin form. Provides full
 							functionality only to registered users. Hosted on Netlify and
 							Heroku.
-						</span>
+						</p>
 					</p>
 					<div className='overlay'></div>
 					<div className='button-wrap'>
@@ -35,12 +35,12 @@ function Projects() {
 					<p className='title'>
 						Mixed Drinks Library
 						<br />
-						<span>
+						<p className='proj-description'>
 							React API project that helps user find cocktail by pivotal spirit.
 							You choose a bottle of liquor and below it generates list of
 							drinks. After chosing one of the drinks, it re-routes user to see
 							details and preparation methods.
-						</span>
+						</p>
 					</p>
 					<div className='overlay'></div>
 					<div className='button-wrap'>
@@ -59,12 +59,12 @@ function Projects() {
 					<p className='title'>
 						Hops Revolution
 						<br />
-						<span>
+						<p className='proj-description'>
 							Project with Google Maps integration that helps user locate
 							selected brewery. It allows both brewery search by the City and
 							Beer lookup by the name. Brewery details are displayed on a
 							coaster which is the link to the brewery location.
-						</span>
+						</p>
 					</p>
 					<div className='overlay'></div>
 					<div className='button-wrap'>
@@ -82,12 +82,12 @@ function Projects() {
 					<p className='title'>
 						TUNR
 						<br />
-						<span>
+						<p className='proj-description'>
 							One of my first full stack projects. This one is built with Ruby
 							on Rails in the back end. You may add, remove and edit the
 							playlist, or mark songs as your favorites. Backend hosted with
 							Heroku, front with Netlify.
-						</span>
+						</p>
 					</p>
 					<div className='overlay'></div>
 					<div className='button-wrap'>

@@ -1,0 +1,78 @@
+.contact {
+	display: grid;
+	display: flex;
+	flex-direction: column;
+	width: 500px;
+	margin: 0 auto;
+	margin-bottom: 100px;
+}
+
+.contact {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.contact > h2 {
+	margin-bottom: 30px;
+	color: #fe4a57;
+	font-family: 'The Historia Demo', sans-serif;
+	font-weight: 300;
+	font-size: 40px;
+}
+
+.contact > input,
+textarea {
+	padding: 10px;
+	border-radius: 3px;
+	margin-bottom: 20px;
+	/* border: none; */
+	background: #fff;
+	font-size: 16px;
+	color: rgb(0, 0, 32);
+	outline: none;
+	border: 3px solid #fe4a57;
+}
+
+.contact > input:focus,
+textarea:focus {
+	border: 3px solid #f7b538;
+}
+
+.contact > textarea {
+	height: 150px;
+	max-width: 100%;
+	min-height: 100px;
+}
+
+.contact > label {
+	padding-bottom: 5px;
+	color: #f7b538;
+	font-weight: bold;
+	font-family: 'Merienda', cursive;
+	font-size: 18px;
+}
+
+.contact > button {
+	color: #fe4a57;
+	background: #1f2235;
+	text-decoration: none;
+	padding: 8px 14px;
+	font-family: 'The Historia Demo', sans-serif;
+	font-size: 26px;
+	width: 150px;
+	border-radius: 10px;
+	margin: 0 auto;
+}
+
+.contact > button:hover {
+	background-color: #f7b538;
+	color: #1f2235;
+	transition: all 0.3s ease-out;
+	cursor: pointer;
+}
+::-webkit-input-placeholder {
+	color: #fe4a57;
+	font-family: 'Merienda', cursive;
+	font-size: 12px;
+}

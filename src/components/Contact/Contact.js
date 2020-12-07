@@ -28,7 +28,7 @@ function Contact() {
 	};
 
 	return (
-		<form className='contact' onSubmit={handleSubmit}>
+		<form id='contact' onSubmit={handleSubmit}>
 			<h2>Everything begins with a "Hello"!</h2>
 			<label>Name</label>
 			<input
@@ -57,6 +57,24 @@ function Contact() {
 				required></textarea>
 
 			<button type='submit'>Submit</button>
+			<div className='contact-info'>
+				<a href='https://github.com/josilob' target='_blank' rel='noreferrer'>
+					<i className='fab fa-github'></i>
+				</a>
+
+				<a href='tel:518-304-3690' target='_blank' rel='noreferrer'>
+					<i class='fas fa-phone'></i>
+				</a>
+				<a href='mailto:bjosilo@gmail.com' target='_blank' rel='noreferrer'>
+					<i class='fas fa-envelope'></i>
+				</a>
+				<a
+					href='https://www.linkedin.com/in/josilo/'
+					target='_blank'
+					rel='noreferrer'>
+					<i className='fab fa-linkedin'></i>
+				</a>
+			</div>
 		</form>
 	);
 }

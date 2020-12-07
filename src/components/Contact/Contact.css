@@ -1,19 +1,21 @@
-.contact {
+#contact {
 	display: grid;
 	display: flex;
 	flex-direction: column;
-	width: 500px;
+	width: 40vw;
+	max-width: 800px;
+	min-width: 360px;
 	margin: 0 auto;
 	margin-bottom: 100px;
 }
 
-.contact {
+#contact {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 }
 
-.contact > h2 {
+#contact > h2 {
 	margin-bottom: 30px;
 	color: #fe4a57;
 	font-family: 'The Historia Demo', sans-serif;
@@ -21,7 +23,7 @@
 	font-size: 40px;
 }
 
-.contact > input,
+#contact > input,
 textarea {
 	padding: 10px;
 	border-radius: 3px;
@@ -34,18 +36,18 @@ textarea {
 	border: 3px solid #fe4a57;
 }
 
-.contact > input:focus,
+#contact > input:focus,
 textarea:focus {
 	border: 3px solid #f7b538;
 }
 
-.contact > textarea {
+#contact > textarea {
 	height: 150px;
 	max-width: 100%;
 	min-height: 100px;
 }
 
-.contact > label {
+#contact > label {
 	padding-bottom: 5px;
 	color: #f7b538;
 	font-weight: bold;
@@ -53,7 +55,7 @@ textarea:focus {
 	font-size: 18px;
 }
 
-.contact > button {
+#contact > button {
 	color: #fe4a57;
 	background: #1f2235;
 	text-decoration: none;
@@ -65,7 +67,7 @@ textarea:focus {
 	margin: 0 auto;
 }
 
-.contact > button:hover {
+#contact > button:hover {
 	background-color: #f7b538;
 	color: #1f2235;
 	transition: all 0.3s ease-out;
@@ -75,4 +77,19 @@ textarea:focus {
 	color: #fe4a57;
 	font-family: 'Merienda', cursive;
 	font-size: 12px;
+}
+.contact-info {
+	margin: 20px auto;
+	width: 100%;
+	font-size: 28px;
+	color: #f7b538;
+}
+.contact-info > * {
+	padding: 10px;
+}
+.contact-info a {
+	color: #f7b538;
+}
+.contact-info a:visited {
+	color: #f7b538;
 }

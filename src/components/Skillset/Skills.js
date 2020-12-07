@@ -5,7 +5,7 @@ function Skills() {
 		<div id='skills'>
 			<div>
 				<h2>My Skillset</h2>
-				<h3>Expanding the list with each new opportunity</h3>
+				<h3>Expanding the list with each new project</h3>
 			</div>
 			<div className='techstack'>
 				<div className='tech-icons'>

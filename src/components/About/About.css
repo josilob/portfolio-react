@@ -3,6 +3,7 @@
 	background: #242a50;
 	max-width: 1600px;
 	margin: 0 auto;
+	padding-bottom: 25px;
 }
 /* /////////////////GREETING///////////////////// */
 #hello {
@@ -14,7 +15,7 @@
 #hello h1 {
 	font-family: 'The Historia Demo';
 	font-size: 160px;
-	background: linear-gradient(to top, #f54784, #ffe838);
+	background: linear-gradient(to top, #fa320f, #ffc738);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	font-weight: 500;
@@ -32,32 +33,36 @@
 	font-family: 'Merienda', cursive;
 	font-size: 24px;
 	color: #f7b538;
-	width: 70%;
-	margin: 0 auto;
-	/* padding-left: 95px; */
+	width: 80%;
+	margin: 15px auto;
 }
+.intro hr {
+	border: 1px solid #fe4a57;
+}
+
 .intro div {
 	position: relative;
+	text-align: justify;
 }
 .profile-pic {
 	overflow: hidden;
 	border-radius: 50%;
-	width: 200px;
-	height: 200px;
+	width: 205px;
+	height: 205px;
 	/* /* position: absolute; */
 	left: calc(50% - 100px);
-	top: calc(50% - 100px);
+	top: calc(50% - 150px);
 }
 
 .profile-pic img {
 	object-fit: cover;
 	transform: scale(0.52) translateX(-260px) translateY(-280px);
 }
-.intro h2 {
+/* .intro h2 {
 	position: absolute;
 	top: 25%;
 	left: 70%;
-}
+} */
 #about > h2 {
 	font-family: 'Merienda', cursive;
 	color: #f7b538;
@@ -65,3 +70,36 @@
 	font-weight: 300;
 }
 /* ///////////////////////////////////////////// */
+
+@media screen and (max-width: 768px) {
+	.intro {
+		display: flex;
+		flex-direction: column;
+	}
+	.intro :nth-child(1) {
+		order: 3;
+	}
+	.intro :nth-child(3) {
+		order: 3;
+	}
+	#hello h1 {
+		font-size: 120px;
+	}
+	#hello h2 {
+		font-size: 30px;
+	}
+	#about > h2 {
+		font-size: ;
+	}
+}
+@media screen and (max-width: 580px) {
+	#hello h1 {
+		font-size: 100px;
+	}
+	#hello h2 {
+		font-size: 24px;
+	}
+	#about > h2 {
+		font-size: 24px;
+	}
+}

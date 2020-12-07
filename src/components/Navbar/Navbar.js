@@ -12,7 +12,9 @@ function Nav() {
 			<div className='menu-icon' onClick={handleClick}>
 				<i className={click ? 'fas fa-times' : 'fas fa-bars'} />
 			</div>
-			<h2 className='nav-dev'>dev-b</h2>
+			<a href='#' onClick={closeBurger} style={{ textDecoration: 'none' }}>
+				<h2 className='nav-dev'>dev-b</h2>
+			</a>
 			<ul className={click ? 'nav-menu active' : 'nav-menu'}>
 				<li className='nav-item dev'>
 					<a href='#about' className='nav-links' onClick={closeBurger}>

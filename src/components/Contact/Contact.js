@@ -7,11 +7,8 @@ function Contact() {
 	const [email, setEmail] = useState('');
 	const [message, setMessage] = useState('');
 
-	const [loader, setLoader] = useState(false);
-
 	const handleSubmit = (e) => {
 		e.preventDefault();
-		setLoader(true);
 		db.collection('contacts')
 			.add({
 				name: name,
@@ -20,11 +17,9 @@ function Contact() {
 			})
 			.then(() => {
 				alert('Message has been submitted!');
-				setLoader(false);
 			})
 			.catch((error) => {
 				alert(error.message);
-				setLoader(false);
 			});
 
 		setName('');
@@ -39,6 +34,7 @@ function Contact() {
 			<input
 				placeholder='John Doe'
 				value={name}
+				type='text'
 				onChange={(e) => setName(e.target.value)}
 				required
 			/>
@@ -47,6 +43,7 @@ function Contact() {
 			<input
 				placeholder='John@mail.com'
 				value={email}
+				type='email'
 				onChange={(e) => setEmail(e.target.value)}
 				required
 			/>
@@ -55,15 +52,11 @@ function Contact() {
 			<textarea
 				placeholder='Message'
 				value={message}
+				type='text'
 				onChange={(e) => setMessage(e.target.value)}
 				required></textarea>
 
-			<button
-				type='submit'
-				// style={{ background: loader ? '#1f2235' : 'rgb(2, 2, 110)' , color: loader ? '#1f2235' : 'rgb(2, 2, 110)'}}
-			>
-				Submit
-			</button>
+			<button type='submit'>Submit</button>
 		</form>
 	);
 }

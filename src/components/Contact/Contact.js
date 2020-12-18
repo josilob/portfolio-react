@@ -75,6 +75,9 @@ function Contact() {
 					<i className='fab fa-linkedin'></i>
 				</a>
 			</div>
+			<a href='#navbar' style={{ textDecoration: 'none' }}>
+				<h2 className='home-top'>Back to top</h2>
+			</a>
 		</form>
 	);
 }

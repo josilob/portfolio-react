@@ -22,10 +22,14 @@ function Projects() {
 					<div className='button-wrap'>
 						<a
 							href='https://github.com/josilob/cineprime-frontend'
-							target='_blank'>
+							target='_blank'
+							rel='noreferrer'>
 							<button className='btn'>GitHub</button>
 						</a>
-						<a href='https://cineprime.netlify.app/' target='_blank'>
+						<a
+							href='https://cineprime.netlify.app/'
+							target='_blank'
+							rel='noreferrer'>
 							<button className='btn'>Live</button>
 						</a>
 					</div>
@@ -46,10 +50,14 @@ function Projects() {
 					<div className='button-wrap'>
 						<a
 							href='https://github.com/josilob/Mixed-Drinks-Library'
-							target='_blank'>
+							target='_blank'
+							rel='noreferrer'>
 							<button className='btn'>GitHub</button>
 						</a>
-						<a href='https://mixed-drinks-josilob.netlify.app/' target='_blank'>
+						<a
+							href='https://mixed-drinks-josilob.netlify.app/'
+							target='_blank'
+							rel='noreferrer'>
 							<button className='btn'>Live</button>
 						</a>
 					</div>
@@ -68,10 +76,16 @@ function Projects() {
 					</p>
 					<div className='overlay'></div>
 					<div className='button-wrap'>
-						<a href='https://github.com/josilob/Project4' target='_blank'>
+						<a
+							href='https://github.com/josilob/Project4'
+							target='_blank'
+							rel='noreferrer'>
 							<button className='btn'>GitHub</button>
 						</a>
-						<a href='https://brewery-cap.netlify.app/' target='_blank'>
+						<a
+							href='https://brewery-cap.netlify.app/'
+							target='_blank'
+							rel='noreferrer'>
 							<button className='btn'>Live</button>
 						</a>
 					</div>
@@ -91,10 +105,16 @@ function Projects() {
 					</p>
 					<div className='overlay'></div>
 					<div className='button-wrap'>
-						<a href='https://github.com/josilob/TUNR-front' target='_blank'>
+						<a
+							href='https://github.com/josilob/TUNR-front'
+							target='_blank'
+							rel='noreferrer'>
 							<button className='btn'>GitHub</button>
 						</a>
-						<a href='https://boj-tunr.netlify.app/' target='_blank'>
+						<a
+							href='https://boj-tunr.netlify.app/'
+							target='_blank'
+							rel='noreferrer'>
 							<button className='btn'>Live</button>
 						</a>
 					</div>

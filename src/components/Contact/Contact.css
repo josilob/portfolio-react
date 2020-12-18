@@ -93,3 +93,17 @@ textarea:focus {
 .contact-info a:visited {
 	color: #f7b538;
 }
+
+.home-top {
+	height: 40px;
+	color: #f7b538;
+	text-decoration: none;
+	padding: 8px 15px;
+	font-family: 'Merienda', cursive;
+	width: 25%;
+	font-size: 18px;
+	min-width: 180px;
+	margin: 0 auto;
+	border: 1px #f7b538 solid;
+	border-radius: 8px;
+}

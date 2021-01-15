@@ -1,62 +1,44 @@
+import React from 'react';
+import emailjs from 'emailjs-com';
 import './Contact.css';
-import React, { useState } from 'react';
-import { db } from '../../firebase';
 
 function Contact() {
-	const [name, setName] = useState('');
-	const [email, setEmail] = useState('');
-	const [message, setMessage] = useState('');
-
-	const handleSubmit = (e) => {
+	const sendEmail = (e) => {
 		e.preventDefault();
-		db.collection('contacts')
-			.add({
-				name: name,
-				email: email,
-				message: message,
-			})
-			.then(() => {
-				alert('Message has been submitted!');
-			})
-			.catch((error) => {
-				alert(error.message);
-			});
 
-		setName('');
-		setEmail('');
-		setMessage('');
+		emailjs
+			.sendForm(
+				'service_8efxgg6',
+				'template_rzr3ccv',
+				e.target,
+				'user_jcj2ooQw7Cczqu4j9nt4b'
+			)
+			.then(
+				(result) => {
+					console.log(result.text);
+				},
+				(error) => {
+					console.log(error.text);
+				}
+			)
+			.then(() => {
+				alert('Message has been submitted! Thank you.');
+			});
+		e.target.reset();
 	};
 
 	return (
-		<form id='contact' onSubmit={handleSubmit}>
+		<form id='contact' onSubmit={sendEmail}>
 			<h2>Everything begins with a "Hello"!</h2>
+
 			<label>Name</label>
-			<input
-				placeholder='John Doe'
-				value={name}
-				type='text'
-				onChange={(e) => setName(e.target.value)}
-				required
-			/>
-
+			<input placeholder='Your name' type='text' name='name' required />
 			<label>Email</label>
-			<input
-				placeholder='John@mail.com'
-				value={email}
-				type='email'
-				onChange={(e) => setEmail(e.target.value)}
-				required
-			/>
-
+			<input placeholder='Your email' type='email' name='email' required />
 			<label>Message</label>
-			<textarea
-				placeholder='Message'
-				value={message}
-				type='text'
-				onChange={(e) => setMessage(e.target.value)}
-				required></textarea>
+			<textarea placeholder='Message' type='text' name='message' required />
+			<input type='submit' value='Submit' />
 
-			<button type='submit'>Submit</button>
 			<div className='contact-info'>
 				<a href='https://github.com/josilob' target='_blank' rel='noreferrer'>
 					<i className='fab fa-github'></i>

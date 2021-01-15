@@ -55,7 +55,7 @@ textarea:focus {
 	font-size: 18px;
 }
 
-#contact > button {
+#contact > input:last-of-type {
 	color: #fe4a57;
 	background: #1f2235;
 	text-decoration: none;
@@ -67,11 +67,12 @@ textarea:focus {
 	margin: 0 auto;
 }
 
-#contact > button:hover {
+#contact > input:last-of-type:hover {
 	background-color: #f7b538;
 	color: #1f2235;
 	transition: all 0.3s ease-out;
 	cursor: pointer;
+	border: 3px solid #1f2235;
 }
 ::-webkit-input-placeholder {
 	color: #fe4a57;

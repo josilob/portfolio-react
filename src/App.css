@@ -1,3 +1,6 @@
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
 @import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
 @font-face {
 	font-family: 'The Historia Demo';
@@ -6,7 +9,7 @@
 	font-weight: normal;
 	font-style: normal;
 }
-/*  
+/*
 #F7B538 -mustardy
 #1F2235 -indigoey
 #FE4A57 -reddish
@@ -24,6 +27,8 @@ body {
 	scroll-behavior: smooth;
 	width: 100vw;
 	overflow-x: hidden;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 .App {

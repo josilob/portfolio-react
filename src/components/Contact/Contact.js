@@ -43,10 +43,6 @@ function Contact() {
 				<a href='https://github.com/josilob' target='_blank' rel='noreferrer'>
 					<i className='fab fa-github'></i>
 				</a>
-
-				<a href='tel:518-304-3690' target='_blank' rel='noreferrer'>
-					<i class='fas fa-phone'></i>
-				</a>
 				<a href='mailto:bjosilo@gmail.com' target='_blank' rel='noreferrer'>
 					<i class='fas fa-envelope'></i>
 				</a>

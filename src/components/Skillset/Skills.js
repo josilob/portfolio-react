@@ -11,7 +11,7 @@ function Skills() {
 				<div className='tech-icons'>
 					<img
 						className='skill-icons'
-						src='https://images.vexels.com/media/users/3/166383/isolated/preview/6024bc5746d7436c727825dc4fc23c22-html-programming-language-icon-by-vexels.png'
+						src={process.env.PUBLIC_URL + '/icons/html.png'}
 						alt='skills-icon'
 					/>
 					<p className='skillName'>HTML</p>
@@ -19,7 +19,7 @@ function Skills() {
 				<div className='tech-icons'>
 					<img
 						className='skill-icons'
-						src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png'
+						src={process.env.PUBLIC_URL + '/icons/css.png'}
 						alt='skills-icon'
 					/>
 					<p className='skillName'>CSS</p>
@@ -27,7 +27,7 @@ function Skills() {
 				<div className='tech-icons'>
 					<img
 						className='skill-icons'
-						src='https://1000logos.net/wp-content/uploads/2020/09/JavaScript-Logo.png'
+						src={process.env.PUBLIC_URL + '/icons/JavaScript.png'}
 						alt='skills-icon'
 					/>
 					<p className='skillName'>JavaScript</p>
@@ -35,7 +35,7 @@ function Skills() {
 				<div className='tech-icons'>
 					<img
 						className='skill-icons'
-						src='https://miro.medium.com/max/500/1*cPh7ujRIfcHAy4kW2ADGOw.png'
+						src={process.env.PUBLIC_URL + '/icons/React.png'}
 						alt='skills-icon'
 					/>
 					<p className='skillName'>React</p>
@@ -43,7 +43,7 @@ function Skills() {
 				<div className='tech-icons'>
 					<img
 						className='skill-icons'
-						src='https://p.kindpng.com/picc/s/27-278320_bootstrap-logo-logo-png-bootstrap-logo-transparent-png.png'
+						src={process.env.PUBLIC_URL + '/icons/bootstrap.png'}
 						alt='skills-icon'
 					/>
 					<p className='skillName'>Bootstrap</p>
@@ -51,7 +51,7 @@ function Skills() {
 				<div className='tech-icons'>
 					<img
 						className='skill-icons'
-						src='https://colinstodd.com/images/posts/matcss-min.png'
+						src={process.env.PUBLIC_URL + '/icons/materialize.png'}
 						alt='skills-icon'
 					/>
 					<p className='skillName'>MaterializeCSS</p>
@@ -59,7 +59,7 @@ function Skills() {
 				<div className='tech-icons'>
 					<img
 						className='skill-icons'
-						src='https://material-ui.com/static/logo.png'
+						src={process.env.PUBLIC_URL + '/icons/materialui.png'}
 						alt='skills-icon'
 					/>
 					<p className='skillName'>Material UI</p>
@@ -67,7 +67,7 @@ function Skills() {
 				<div className='tech-icons'>
 					<img
 						className='skill-icons'
-						src='https://avatars.githubusercontent.com/u/20658825?s=200&v=4'
+						src={process.env.PUBLIC_URL + '/icons/styled-components.png'}
 						alt='skills-icon'
 					/>
 					<p className='skillName'>Styled Components</p>
@@ -75,7 +75,7 @@ function Skills() {
 				<div className='tech-icons'>
 					<img
 						className='skill-icons'
-						src='https://lh3.googleusercontent.com/-XvJzhz3pfH0/XjYG_xWkESI/AAAAAAAAJ9c/AYlgAtRknEU2W5fMcFhQoL6rmO8EBtIDQCK8BGAsYHg/s0/2020-02-01.png'
+						src={process.env.PUBLIC_URL + '/icons/restAPI.png'}
 						alt='skills-icon'
 					/>
 					<p className='skillName'>RESTful API</p>
@@ -83,7 +83,7 @@ function Skills() {
 				<div className='tech-icons'>
 					<img
 						className='skill-icons'
-						src='https://i.dlpng.com/static/png/7199018_preview.png'
+						src={process.env.PUBLIC_URL + '/icons/node.png'}
 						alt='skills-icon'
 					/>
 					<p className='skillName'>NodeJS</p>
@@ -91,7 +91,7 @@ function Skills() {
 				<div className='tech-icons'>
 					<img
 						className='skill-icons'
-						src='https://images.tute.io/tute/topic/express-js.png'
+						src={process.env.PUBLIC_URL + '/icons/express.png'}
 						alt='skills-icon'
 					/>
 					<p className='skillName'>Express</p>
@@ -99,7 +99,7 @@ function Skills() {
 				<div className='tech-icons'>
 					<img
 						className='skill-icons'
-						src='https://infinapps.com/wp-content/uploads/2018/10/mongodb-logo.png'
+						src={process.env.PUBLIC_URL + '/icons/mongo.png'}
 						alt='skills-icon'
 					/>
 					<p className='skillName'>MongoDB</p>
@@ -107,7 +107,7 @@ function Skills() {
 				<div className='tech-icons'>
 					<img
 						className='skill-icons'
-						src='https://pbs.twimg.com/profile_images/946432748276740096/0TXzZU7W_400x400.jpg'
+						src={process.env.PUBLIC_URL + '/icons/mongoose.jpeg'}
 						alt='skills-icon'
 					/>
 					<p className='skillName'>Mongoose</p>
@@ -115,7 +115,7 @@ function Skills() {
 				<div className='tech-icons'>
 					<img
 						className='skill-icons'
-						src={require('../../icons/ruby.png')}
+						src={process.env.PUBLIC_URL + '/icons/ruby.png'}
 						alt='skills-icon'
 					/>
 					<p className='skillName'>Ruby</p>
@@ -123,7 +123,7 @@ function Skills() {
 				<div className='tech-icons'>
 					<img
 						className='skill-icons'
-						src={require('../../icons/rails.png')}
+						src={process.env.PUBLIC_URL + '/icons/rails.png'}
 						alt='skills-icon'
 					/>
 					<p className='skillName'>Rails</p>
@@ -131,7 +131,7 @@ function Skills() {
 				<div className='tech-icons'>
 					<img
 						className='skill-icons'
-						src={require('../../icons/psql.png')}
+						src={process.env.PUBLIC_URL + '/icons/psql.png'}
 						alt='skills-icon'
 					/>
 					<p className='skillName'>Postgress</p>
@@ -139,7 +139,7 @@ function Skills() {
 				<div className='tech-icons'>
 					<img
 						className='skill-icons'
-						src={require('../../icons/postman.png')}
+						src={process.env.PUBLIC_URL + '/icons/postman.png'}
 						alt='skills-icon'
 					/>
 					<p className='skillName'>Postman</p>
@@ -147,7 +147,7 @@ function Skills() {
 				<div className='tech-icons'>
 					<img
 						className='skill-icons'
-						src={require('../../icons/git.png')}
+						src={process.env.PUBLIC_URL + '/icons/git.png'}
 						alt='skills-icon'
 					/>
 					<p className='skillName'>Git</p>

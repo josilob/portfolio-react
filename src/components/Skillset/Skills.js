@@ -5,7 +5,7 @@ function Skills() {
 		<div id='skills'>
 			<div>
 				<h2>My Skillset</h2>
-				<h3>Continuously upgrading</h3>
+				<h3>Continuously improving</h3>
 			</div>
 			<div className='techstack'>
 				<div className='tech-icons'>

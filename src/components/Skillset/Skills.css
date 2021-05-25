@@ -33,7 +33,6 @@
 	padding: 20px;
 	text-align: center;
 	margin: 0 auto;
-	/* background-color: #fff; */
 }
 
 .tech-icons {
@@ -47,26 +46,30 @@
 
 .tech-icons img {
 	margin: 10px 20px;
-	/* background-color: #242a50; */
 	border-radius: 5px;
 	max-height: 95px;
-	/* background-color: #fff; */
 }
 
 @media screen and (max-width: 1024px) {
 	.techstack {
-		width: 70%;
+		width: 90%;
 	}
-	.iconify {
-		font-size: 50px;
-	}
+
 	.tech-icons {
 		margin: 10px 10px;
 		border-radius: 5px;
 	}
+	.tech-icons img {
+		margin: 8px 18px;
+		max-height: 75px;
+	}
 }
 @media screen and (max-width: 720px) {
 	.techstack {
-		width: 90%;
+		width: 95%;
+	}
+	.tech-icons img {
+		margin: 5px 12px;
+		max-height: 55px;
 	}
 }

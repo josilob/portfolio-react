@@ -59,7 +59,7 @@
 	width: 100%;
 	height: 100%;
 	background: rgba(0, 0, 0, 0);
-	transition: background 0.5s ease;
+	transition: all 0.5s ease;
 }
 
 .card:hover .overlay {
@@ -74,7 +74,7 @@
 	left: 0;
 }
 
-.title {
+.card p {
 	position: absolute;
 	width: 500px;
 	top: 220px;
@@ -95,7 +95,7 @@
 	color: #f7b538;
 }
 
-.card:hover .title {
+.card:hover p {
 	top: 30px;
 	opacity: 1;
 }

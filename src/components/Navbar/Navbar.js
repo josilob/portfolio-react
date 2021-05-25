@@ -12,13 +12,18 @@ function Nav() {
 			<div className='menu-icon' onClick={handleClick}>
 				<i className={click ? 'fas fa-times' : 'fas fa-bars'} />
 			</div>
-			<a
+			{/* <a
 				href='#navbar'
 				onClick={closeBurger}
 				style={{ textDecoration: 'none' }}>
 				<h2 className='nav-dev'>dev-b</h2>
-			</a>
+			</a> */}
 			<ul className={click ? 'nav-menu active' : 'nav-menu'}>
+				<li className='nav-item'>
+					<a href='#projects' className='nav-links' onClick={closeBurger}>
+						My Work
+					</a>
+				</li>
 				<li className='nav-item dev'>
 					<a href='#about' className='nav-links' onClick={closeBurger}>
 						About
@@ -29,18 +34,14 @@ function Nav() {
 						Techstack
 					</a>
 				</li>
-				<li className='nav-item'>
-					<a href='#projects' className='nav-links' onClick={closeBurger}>
-						My Work
-					</a>
-				</li>
+
 				<li className='nav-item'>
 					<a href='#contact' className='nav-links' onClick={closeBurger}>
 						Contact
 					</a>
 				</li>
 			</ul>
-			<div className='social-icons'>
+			{/* <div className='social-icons'>
 				<a href='https://github.com/josilob' target='_blank' rel='noreferrer'>
 					<i className='fab fa-github'></i>
 				</a>
@@ -50,7 +51,7 @@ function Nav() {
 					rel='noreferrer'>
 					<i className='fab fa-linkedin'></i>
 				</a>
-			</div>
+			</div> */}
 		</nav>
 	);
 }

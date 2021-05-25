@@ -44,7 +44,7 @@ function Contact() {
 					<i className='fab fa-github'></i>
 				</a>
 				<a href='mailto:bjosilo@gmail.com' target='_blank' rel='noreferrer'>
-					<i class='fas fa-envelope'></i>
+					<i className='fas fa-envelope'></i>
 				</a>
 				<a
 					href='https://www.linkedin.com/in/josilo/'

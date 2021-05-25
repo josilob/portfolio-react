@@ -1,7 +1,6 @@
 #skills {
 	padding: 50px;
 	position: relative;
-	background: #242a50;
 	color: #fe4a57;
 	font-family: 'The Historia Demo', sans-serif;
 	text-align: center;
@@ -23,34 +22,35 @@
 	color: #f7b538;
 }
 
-.tech-icons {
-}
-
 .techstack {
 	display: flex;
 	flex-flow: row;
-	width: 70%;
+	width: 75%;
+	max-width: 1080px;
 	flex-wrap: wrap;
 	justify-content: space-around;
 	padding-top: 40px;
 	padding: 20px;
 	text-align: center;
 	margin: 0 auto;
-	background-color: #fff;
+	/* background-color: #fff; */
 }
 
-.skill-icons {
+.tech-icons {
+	margin: 15px auto;
+	border-radius: 5px;
+}
+
+.techstack p {
+	font-family: 'Merienda', cursive;
+}
+
+.tech-icons img {
 	margin: 10px 20px;
-	background-color: #242a50;
+	/* background-color: #242a50; */
 	border-radius: 5px;
 	max-height: 95px;
-	background-color: #fff;
-}
-
-.iconify {
-	font-size: 60px;
-	height: 100%;
-	padding: 0;
+	/* background-color: #fff; */
 }
 
 @media screen and (max-width: 1024px) {

@@ -5,13 +5,13 @@ function Skills() {
 		<div id='skills'>
 			<div>
 				<h2>My Skillset</h2>
-				<h3>Expanding the list with each new project</h3>
+				<h3>Continuously upgrading</h3>
 			</div>
 			<div className='techstack'>
 				<div className='tech-icons'>
 					<img
 						className='skill-icons'
-						src={process.env.PUBLIC_URL + '/icons/html.png'}
+						src={process.env.PUBLIC_URL + '/imgs/html.png'}
 						alt='skills-icon'
 					/>
 					<p className='skillName'>HTML</p>
@@ -19,7 +19,7 @@ function Skills() {
 				<div className='tech-icons'>
 					<img
 						className='skill-icons'
-						src={process.env.PUBLIC_URL + '/icons/css.png'}
+						src={process.env.PUBLIC_URL + '/imgs/css.png'}
 						alt='skills-icon'
 					/>
 					<p className='skillName'>CSS</p>
@@ -27,7 +27,7 @@ function Skills() {
 				<div className='tech-icons'>
 					<img
 						className='skill-icons'
-						src={process.env.PUBLIC_URL + '/icons/JavaScript.png'}
+						src={process.env.PUBLIC_URL + '/imgs/JavaScript.png'}
 						alt='skills-icon'
 					/>
 					<p className='skillName'>JavaScript</p>
@@ -35,7 +35,7 @@ function Skills() {
 				<div className='tech-icons'>
 					<img
 						className='skill-icons'
-						src={process.env.PUBLIC_URL + '/icons/React.png'}
+						src={process.env.PUBLIC_URL + '/imgs/React.png'}
 						alt='skills-icon'
 					/>
 					<p className='skillName'>React</p>
@@ -43,7 +43,7 @@ function Skills() {
 				<div className='tech-icons'>
 					<img
 						className='skill-icons'
-						src={process.env.PUBLIC_URL + '/icons/bootstrap.png'}
+						src={process.env.PUBLIC_URL + '/imgs/bootstrap.png'}
 						alt='skills-icon'
 					/>
 					<p className='skillName'>Bootstrap</p>
@@ -51,7 +51,7 @@ function Skills() {
 				<div className='tech-icons'>
 					<img
 						className='skill-icons'
-						src={process.env.PUBLIC_URL + '/icons/materialize.png'}
+						src={process.env.PUBLIC_URL + '/imgs/materialize.png'}
 						alt='skills-icon'
 					/>
 					<p className='skillName'>MaterializeCSS</p>
@@ -59,7 +59,7 @@ function Skills() {
 				<div className='tech-icons'>
 					<img
 						className='skill-icons'
-						src={process.env.PUBLIC_URL + '/icons/materialui.png'}
+						src={process.env.PUBLIC_URL + '/imgs/materialui.png'}
 						alt='skills-icon'
 					/>
 					<p className='skillName'>Material UI</p>
@@ -67,7 +67,7 @@ function Skills() {
 				<div className='tech-icons'>
 					<img
 						className='skill-icons'
-						src={process.env.PUBLIC_URL + '/icons/styled-components.png'}
+						src={process.env.PUBLIC_URL + '/imgs/styled-components.png'}
 						alt='skills-icon'
 					/>
 					<p className='skillName'>Styled Components</p>
@@ -75,7 +75,7 @@ function Skills() {
 				<div className='tech-icons'>
 					<img
 						className='skill-icons'
-						src={process.env.PUBLIC_URL + '/icons/restAPI.png'}
+						src={process.env.PUBLIC_URL + '/imgs/restAPI.png'}
 						alt='skills-icon'
 					/>
 					<p className='skillName'>RESTful API</p>
@@ -83,7 +83,7 @@ function Skills() {
 				<div className='tech-icons'>
 					<img
 						className='skill-icons'
-						src={process.env.PUBLIC_URL + '/icons/node.png'}
+						src={process.env.PUBLIC_URL + '/imgs/node.png'}
 						alt='skills-icon'
 					/>
 					<p className='skillName'>NodeJS</p>
@@ -91,7 +91,7 @@ function Skills() {
 				<div className='tech-icons'>
 					<img
 						className='skill-icons'
-						src={process.env.PUBLIC_URL + '/icons/express.png'}
+						src={process.env.PUBLIC_URL + '/imgs/express.png'}
 						alt='skills-icon'
 					/>
 					<p className='skillName'>Express</p>
@@ -99,7 +99,7 @@ function Skills() {
 				<div className='tech-icons'>
 					<img
 						className='skill-icons'
-						src={process.env.PUBLIC_URL + '/icons/mongo.png'}
+						src={process.env.PUBLIC_URL + '/imgs/mongo.png'}
 						alt='skills-icon'
 					/>
 					<p className='skillName'>MongoDB</p>
@@ -107,7 +107,7 @@ function Skills() {
 				<div className='tech-icons'>
 					<img
 						className='skill-icons'
-						src={process.env.PUBLIC_URL + '/icons/mongoose.jpeg'}
+						src={process.env.PUBLIC_URL + '/imgs/mongoose.jpeg'}
 						alt='skills-icon'
 					/>
 					<p className='skillName'>Mongoose</p>
@@ -115,7 +115,7 @@ function Skills() {
 				<div className='tech-icons'>
 					<img
 						className='skill-icons'
-						src={process.env.PUBLIC_URL + '/icons/ruby.png'}
+						src={process.env.PUBLIC_URL + '/imgs/ruby.png'}
 						alt='skills-icon'
 					/>
 					<p className='skillName'>Ruby</p>
@@ -123,7 +123,7 @@ function Skills() {
 				<div className='tech-icons'>
 					<img
 						className='skill-icons'
-						src={process.env.PUBLIC_URL + '/icons/rails.png'}
+						src={process.env.PUBLIC_URL + '/imgs/rails.png'}
 						alt='skills-icon'
 					/>
 					<p className='skillName'>Rails</p>
@@ -131,7 +131,7 @@ function Skills() {
 				<div className='tech-icons'>
 					<img
 						className='skill-icons'
-						src={process.env.PUBLIC_URL + '/icons/psql.png'}
+						src={process.env.PUBLIC_URL + '/imgs/psql.png'}
 						alt='skills-icon'
 					/>
 					<p className='skillName'>Postgress</p>
@@ -139,7 +139,7 @@ function Skills() {
 				<div className='tech-icons'>
 					<img
 						className='skill-icons'
-						src={process.env.PUBLIC_URL + '/icons/postman.png'}
+						src={process.env.PUBLIC_URL + '/imgs/postman.png'}
 						alt='skills-icon'
 					/>
 					<p className='skillName'>Postman</p>
@@ -147,7 +147,7 @@ function Skills() {
 				<div className='tech-icons'>
 					<img
 						className='skill-icons'
-						src={process.env.PUBLIC_URL + '/icons/git.png'}
+						src={process.env.PUBLIC_URL + '/imgs/git.png'}
 						alt='skills-icon'
 					/>
 					<p className='skillName'>Git</p>

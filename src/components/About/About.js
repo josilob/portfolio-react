@@ -17,8 +17,8 @@ function About() {
 						I am fueled by inspirational designs, server-side architecture and
 						integration of everything in one functional bond.
 						<br />
-						<hr />
 					</p>
+					<hr />
 				</div>
 				<div></div>
 				<div>
@@ -28,8 +28,8 @@ function About() {
 						snowshoeing or cross-country skiing through the ADK. If I am not outside,
 						I am playing PC games or working on my web development skills.
 						<br />
-						<hr />
 					</p>
+					<hr />
 				</div>
 			</div>
 		</div>

@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio-page/static/css/main.d2732411.chunk.css",
-    "main.js": "/portfolio-page/static/js/main.55b16491.chunk.js",
-    "main.js.map": "/portfolio-page/static/js/main.55b16491.chunk.js.map",
+    "main.css": "/portfolio-page/static/css/main.073c6e2a.chunk.css",
+    "main.js": "/portfolio-page/static/js/main.abcde789.chunk.js",
+    "main.js.map": "/portfolio-page/static/js/main.abcde789.chunk.js.map",
     "runtime-main.js": "/portfolio-page/static/js/runtime-main.ed8a7379.js",
     "runtime-main.js.map": "/portfolio-page/static/js/runtime-main.ed8a7379.js.map",
     "static/js/2.ef946796.chunk.js": "/portfolio-page/static/js/2.ef946796.chunk.js",
     "static/js/2.ef946796.chunk.js.map": "/portfolio-page/static/js/2.ef946796.chunk.js.map",
     "index.html": "/portfolio-page/index.html",
-    "static/css/main.d2732411.chunk.css.map": "/portfolio-page/static/css/main.d2732411.chunk.css.map",
+    "static/css/main.073c6e2a.chunk.css.map": "/portfolio-page/static/css/main.073c6e2a.chunk.css.map",
     "static/js/2.ef946796.chunk.js.LICENSE.txt": "/portfolio-page/static/js/2.ef946796.chunk.js.LICENSE.txt",
     "static/media/App.css": "/portfolio-page/static/media/thehistoriademo-webfont.e2db6a1d.woff2"
   },
   "entrypoints": [
     "static/js/runtime-main.ed8a7379.js",
     "static/js/2.ef946796.chunk.js",
-    "static/css/main.d2732411.chunk.css",
-    "static/js/main.55b16491.chunk.js"
+    "static/css/main.073c6e2a.chunk.css",
+    "static/js/main.abcde789.chunk.js"
   ]
 }

@@ -8,51 +8,47 @@ function Nav() {
 	const closeBurger = () => setClick(false);
 
 	return (
-		<nav id='navbar'>
-			<div className='menu-icon' onClick={handleClick}>
-				<i className={click ? 'fas fa-times' : 'fas fa-bars'} />
-			</div>
-			{/* <a
-				href='#navbar'
-				onClick={closeBurger}
-				style={{ textDecoration: 'none' }}>
-				<h2 className='nav-dev'>dev-b</h2>
-			</a> */}
-			<ul className={click ? 'nav-menu active' : 'nav-menu'}>
-				<li className='nav-item'>
-					<a href='#projects' className='nav-links' onClick={closeBurger}>
-						My Work
-					</a>
-				</li>
-				<li className='nav-item dev'>
-					<a href='#about' className='nav-links' onClick={closeBurger}>
-						About
-					</a>
-				</li>
-				<li className='nav-item'>
-					<a href='#skills' className='nav-links' onClick={closeBurger}>
-						Techstack
-					</a>
-				</li>
+		<React.Fragment>
+			<nav id='navbar'>
+				<div className='menu-icon' onClick={handleClick}>
+					<i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+				</div>
 
-				<li className='nav-item'>
-					<a href='#contact' className='nav-links' onClick={closeBurger}>
-						Contact
-					</a>
-				</li>
-			</ul>
-			{/* <div className='social-icons'>
-				<a href='https://github.com/josilob' target='_blank' rel='noreferrer'>
-					<i className='fab fa-github'></i>
-				</a>
-				<a
-					href='https://www.linkedin.com/in/josilo/'
-					target='_blank'
-					rel='noreferrer'>
-					<i className='fab fa-linkedin'></i>
-				</a>
-			</div> */}
-		</nav>
+				<ul className={click ? 'nav-menu active' : 'nav-menu'}>
+					<li className='nav-item'>
+						<a href='#projects' className='nav-links' onClick={closeBurger}>
+							My Work
+						</a>
+					</li>
+					<li className='nav-item dev'>
+						<a href='#about' className='nav-links' onClick={closeBurger}>
+							About
+						</a>
+					</li>
+					<li className='nav-item'>
+						<a href='#skills' className='nav-links' onClick={closeBurger}>
+							Techstack
+						</a>
+					</li>
+
+					<li className='nav-item'>
+						<a href='#contact' className='nav-links' onClick={closeBurger}>
+							Contact
+						</a>
+					</li>
+				</ul>
+			</nav>
+
+			<div id='hello'>
+				<h2>Hello there!</h2>
+				<h1>I am Bojan</h1>
+				<h2>
+					I am a Full Stack Developer fueled by unconventional solutions,
+					relentlessly pursuing designs focused on capturing the user's attention and
+					thoughtful navigation.
+				</h2>
+			</div>
+		</React.Fragment>
 	);
 }
 

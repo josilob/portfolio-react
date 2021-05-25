@@ -4,7 +4,7 @@ import './Projects.css';
 function Projects() {
 	return (
 		<div id='projects'>
-			<h2>You can see some of my previously made projects below</h2>
+			<h2>My previous projects</h2>
 			<div className='projects-div'>
 				<div className='card'>
 					<img src={process.env.PUBLIC_URL + '/imgs/cineprime.png'} alt='projects' />

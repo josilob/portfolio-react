@@ -20,6 +20,36 @@
 	padding-left: 30px;
 }
 
+#hello {
+	font-size: 24px;
+	color: #f7b538;
+	font-family: 'Merienda', cursive;
+	padding-top: 30px;
+	max-width: 900px;
+	margin: 50px auto;
+}
+#hello h1 {
+	font-family: 'The Historia Demo';
+	font-size: 135px;
+	background: linear-gradient(to top, #fa320f, #ffc738);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: 500;
+}
+
+#hello h2:first-of-type {
+	font-family: 'The Historia Demo';
+	color: #f7b538;
+	font-size: 42px;
+	font-weight: 300;
+}
+
+#hello h2 {
+	color: #f7b538;
+	font-size: 26px;
+	font-weight: 300;
+}
+
 .nav-item {
 	display: flex;
 	align-items: center;
@@ -149,4 +179,26 @@
 }
 
 @media screen and (min-width: 1700px) {
+}
+@media screen and (max-width: 768px) {
+	#hello h1 {
+		font-size: 120px;
+	}
+	#hello h2 {
+		font-size: 30px;
+	}
+	#about > h2 {
+		font-size: 12px;
+	}
+}
+@media screen and (max-width: 580px) {
+	#hello h1 {
+		font-size: 100px;
+	}
+	#hello h2 {
+		font-size: 24px;
+	}
+	#about > h2 {
+		font-size: 24px;
+	}
 }

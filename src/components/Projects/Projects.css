@@ -28,10 +28,6 @@
 	position: relative;
 }
 
-.project-card:hover {
-	cursor: pointer;
-}
-
 .btn {
 	height: 30px;
 	width: 80px;
@@ -74,30 +70,42 @@
 	left: 0;
 }
 
-.card p {
+.title,
+.proj-description {
 	position: absolute;
 	width: 500px;
 	top: 220px;
 	font-weight: 300;
-	font-size: 35px;
 	text-align: center;
-	color: #fe4a57;
 	transition: top 0.5s ease;
 	z-index: 1;
 	opacity: 0;
 }
+
+.title {
+	font-size: 32px;
+	color: #fe4a57;
+}
+
 .proj-description {
 	font-family: 'Merienda', cursive;
-	font-size: 16px;
+	font-size: 18px;
 	text-align: center;
 	padding: 0 30px;
-	line-height: 2;
+	line-height: 1.5;
 	color: #f7b538;
 }
 
 .card:hover p {
-	top: 30px;
 	opacity: 1;
+}
+
+.card:hover .proj-description {
+	top: 65px;
+	color: #f7b538;
+}
+.card:hover .title {
+	top: 35px;
 }
 
 .button-wrap {
@@ -165,20 +173,18 @@
 		left: 0;
 		font-weight: 300;
 		font-size: 35px;
-		color: #fe4a57;
-		transition: top 0.5s ease;
 		z-index: 1;
 		opacity: 1;
 		margin: 0 auto;
 	}
 	.proj-description {
-		font-size: 14px;
+		font-size: 16px;
 		padding: 0;
-		line-height: 2;
-		width: 80%;
+		opacity: 1;
+		top: 60px;
+		line-height: 1.5;
+		width: 100%;
 		margin: 0 auto;
-		text-align: center;
-		color: white;
 	}
 	.button-wrap {
 		opacity: 1;
@@ -199,12 +205,10 @@
 		width: 65%;
 	}
 	.card {
-		position: relative;
 		margin-top: 50px;
 		width: 360px;
 		height: 240px;
 		border-radius: 20px;
-		font-family: 'The Historia Demo', sans-serif;
 		overflow: hidden;
 	}
 	.card img {
@@ -215,10 +219,7 @@
 		width: 360px;
 		top: 20px;
 		left: 0;
-		font-weight: 300;
 		font-size: 26px;
-		color: #fe4a57;
-		transition: top 0.5s ease;
 		z-index: 1;
 		opacity: 1;
 		margin: 0 auto;
@@ -228,6 +229,7 @@
 		width: 360px;
 	}
 	.proj-description {
-		font-size: 12px;
+		font-size: 15px;
+		margin: 0 auto;
 	}
 }

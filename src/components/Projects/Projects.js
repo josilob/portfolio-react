@@ -1,5 +1,8 @@
-import React from 'react';
 import './Projects.css';
+import mdl from '../../assets/imgs/MDL.png';
+import cineprime from '../../assets/imgs/cineprime.png';
+import tunr from '../../assets/imgs/tunr.png';
+import hops from '../../assets/imgs/Hops.png';
 
 function Projects() {
 	return (
@@ -7,7 +10,7 @@ function Projects() {
 			<h2>My previous projects</h2>
 			<div className='projects-div'>
 				<div className='card'>
-					<img src={process.env.PUBLIC_URL + '/imgs/cineprime.png'} alt='projects' />
+					<img src={cineprime} alt='projects' />
 					<p className='title'>Cineprime</p>
 					<br />
 					<p className='proj-description'>
@@ -17,19 +20,19 @@ function Projects() {
 					</p>
 					<div className='overlay'></div>
 					<div className='button-wrap'>
-						<a
+						{/* <a
 							href='https://github.com/josilob/cineprime-frontend'
 							target='_blank'
 							rel='noreferrer'>
 							<button className='btn'>GitHub</button>
-						</a>
+						</a> */}
 						<a href='https://cineprime.netlify.app/' target='_blank' rel='noreferrer'>
 							<button className='btn'>Live</button>
 						</a>
 					</div>
 				</div>
 				<div className='card'>
-					<img src={process.env.PUBLIC_URL + '/imgs/MDL.png'} alt='projects' />
+					<img src={mdl} alt='projects' />
 					<p className='title'>Mixed Drinks Library</p>
 					<br />
 					<p className='proj-description'>
@@ -40,12 +43,12 @@ function Projects() {
 					</p>
 					<div className='overlay'></div>
 					<div className='button-wrap'>
-						<a
+						{/* <a
 							href='https://github.com/josilob/Mixed-Drinks-Library'
 							target='_blank'
 							rel='noreferrer'>
 							<button className='btn'>GitHub</button>
-						</a>
+						</a> */}
 						<a
 							href='https://mixed-drinks-josilob.netlify.app/'
 							target='_blank'
@@ -55,7 +58,7 @@ function Projects() {
 					</div>
 				</div>
 				<div className='card'>
-					<img src={process.env.PUBLIC_URL + '/imgs/Hops.png'} alt='projects' />
+					<img src={hops} alt='projects' />
 					<p className='title'>Hops Revolution</p>
 					<br />
 					<p className='proj-description'>
@@ -66,12 +69,12 @@ function Projects() {
 					</p>
 					<div className='overlay'></div>
 					<div className='button-wrap'>
-						<a
+						{/* <a
 							href='https://github.com/josilob/Project4'
 							target='_blank'
 							rel='noreferrer'>
 							<button className='btn'>GitHub</button>
-						</a>
+						</a> */}
 						<a
 							href='https://brewery-cap.netlify.app/'
 							target='_blank'
@@ -82,7 +85,7 @@ function Projects() {
 				</div>
 
 				<div className='card'>
-					<img src={process.env.PUBLIC_URL + '/imgs/tunr.png'} alt='projects' />
+					<img src={tunr} alt='projects' />
 					<p className='title'>TUNR</p>
 					<br />
 					<p className='proj-description'>
@@ -92,12 +95,12 @@ function Projects() {
 					</p>
 					<div className='overlay'></div>
 					<div className='button-wrap'>
-						<a
+						{/* <a
 							href='https://github.com/josilob/TUNR-front'
 							target='_blank'
 							rel='noreferrer'>
 							<button className='btn'>GitHub</button>
-						</a>
+						</a> */}
 						<a href='https://boj-tunr.netlify.app/' target='_blank' rel='noreferrer'>
 							<button className='btn'>Live</button>
 						</a>

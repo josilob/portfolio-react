@@ -88,11 +88,11 @@ textarea:focus {
 .contact-info > * {
 	padding: 10px;
 }
-.contact-info a {
+.contact-info a,
+contact-info a:visited,
+contact-info a:link {
 	color: #f7b538;
-}
-.contact-info a:visited {
-	color: #f7b538;
+	text-decoration: none;
 }
 
 .home-top {

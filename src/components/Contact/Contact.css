@@ -108,3 +108,10 @@ contact-info a:link {
 	border: 1px #f7b538 solid;
 	border-radius: 8px;
 }
+.home-top:hover {
+	background-color: #f7b538;
+	color: #1f2235;
+	transition: all 0.3s ease-out;
+	cursor: pointer;
+	border: 3px solid #1f2235;
+}

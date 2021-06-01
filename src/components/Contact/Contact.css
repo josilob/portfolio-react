@@ -59,7 +59,7 @@ textarea:focus {
 	color: #fe4a57;
 	background: #1f2235;
 	text-decoration: none;
-	padding: 8px 14px;
+	padding: 7px 14px;
 	font-family: 'The Historia Demo', sans-serif;
 	font-size: 26px;
 	width: 150px;
@@ -98,12 +98,12 @@ contact-info a:link {
 .home-top {
 	height: 40px;
 	color: #f7b538;
-	text-decoration: none;
-	padding: 8px 15px;
+	/* text-decoration: none; */
+	/* padding: 8px 15px; */
 	font-family: 'Merienda', cursive;
 	width: 25%;
 	font-size: 18px;
-	min-width: 180px;
+	min-width: 250px;
 	margin: 0 auto;
 	border: 1px #f7b538 solid;
 	border-radius: 8px;
@@ -114,4 +114,10 @@ contact-info a:link {
 	transition: all 0.3s ease-out;
 	cursor: pointer;
 	border: 3px solid #1f2235;
+}
+
+a .home-top {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }

@@ -50,7 +50,7 @@
 	padding: 15px;
 }
 
-.nav-dev {
+/* .nav-dev {
 	display: flex;
 	align-items: center;
 	height: 70px;
@@ -59,7 +59,7 @@
 	text-decoration: none;
 	padding: 8px 15px;
 	font-family: 'The Historia Demo', sans-serif;
-}
+} */
 
 .nav-links {
 	color: #fe4a57;
@@ -104,6 +104,9 @@
 }
 
 @media screen and (max-width: 768px) {
+	#navbar {
+		position: relative;
+	}
 	.nav-menu {
 		display: flex;
 		flex-direction: column;
@@ -121,9 +124,9 @@
 	.nav-menu.active {
 		background: #1f2235;
 		left: 0;
-		opacity: 1;
+		opacity: 5;
 		transition: all 0.5s ease;
-		z-index: 1;
+		z-index: 5;
 	}
 
 	.nav-links {
@@ -139,13 +142,6 @@
 		background-color: #f7b538;
 		color: #1f2235;
 		border-radius: 0;
-	}
-
-	#navbar-logo {
-		position: absolute;
-		top: 0;
-		left: 0;
-		transform: translate(25%, 50%);
 	}
 
 	.menu-icon {
@@ -167,30 +163,5 @@
 		position: absolute;
 		left: calc(50% - 45px);
 		font-size: 28px;
-	}
-}
-
-@media screen and (min-width: 1700px) {
-}
-@media screen and (max-width: 768px) {
-	#hello h1 {
-		/* font-size: 120px; */
-	}
-	#hello h2 {
-		/* font-size: 30px; */
-	}
-	/* #about > h2 {
-		font-size: 12px;
-	} */
-}
-@media screen and (max-width: 580px) {
-	#hello h1 {
-		/* font-size: 30px; */
-	}
-	#hello h2 {
-		/* font-size: 24px; */
-	}
-	#about > h2 {
-		font-size: 24px;
 	}
 }

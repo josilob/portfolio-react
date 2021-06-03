@@ -4,27 +4,44 @@ import './About.css';
 function About() {
 	return (
 		<div id='about' className='intro'>
-			<div>
-				<p>
-					I'm a web developer with background in civil engineering, coming from the
-					Lake Placid area. At the crossroads between creativity and logic, I am
-					fueled by inspirational designs, server-side architecture and integration
-					of everything in one functional bond. Relentless spirit and curious mind
-					persuing new career.
-				</p>
+			<div className='about-skills'>
+				<h2>As a web developer I can offer to:</h2>
 				<br />
-				<hr />
+				<ul>
+					<li>1. Create responsive and mobile first designs</li>
+					<li>2. Build Single Page Applications with React</li>
+					<li>3. Make a Backend with Express.js and MongoDB</li>
+					<li>4. Work with functional components and React Hooks</li>
+					<li>5. Route pages with react-router-dom</li>
+					<li>6. Utilize modern ES syntax and modularize the code</li>
+					<li>7. Style with CSS, SCSS or Styled Components</li>
+				</ul>
+				<br />
+				<hr></hr>
 			</div>
-			<div></div>
-			<div>
-				<p>
-					Coming from the northern part of New York, I enjoy hiking trails or camping
-					during summer months. During the winter time, you will find me snowshoeing
-					or cross-country skiing through the ADK. If I am not outside, I enjoy
-					playing PC games, solving sudoku or working on crossword puzzles.
-				</p>
-				<br />
-				<hr />
+
+			<div className='about-personal'>
+				<div>
+					<p>
+						I'm a Web Developer with background in civil engineering, coming from the
+						Lake Placid area. At the crossroads between creativity and logic, I am
+						fueled by inspirational designs, server-side architecture and integration
+						of everything in one functional bond. Relentless spirit and curious mind
+						persuing big dreams.
+					</p>
+					<br />
+					<hr />
+				</div>
+				<div>
+					<p>
+						Coming from the northern part of New York, I enjoy hiking trails or
+						camping during summer months. During the winter time, you will find me
+						snowshoeing or cross-country skiing through the ADK. If I am not outside,
+						I enjoy playing PC games, solving sudoku or working on crossword puzzles.
+					</p>
+					<br />
+					<hr />
+				</div>
 			</div>
 		</div>
 	);

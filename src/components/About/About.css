@@ -13,6 +13,8 @@
 	grid-template-columns: 2fr 1fr 2fr;
 	position: relative;
 	padding-top: 80px;
+	display: flex;
+	flex-direction: column;
 }
 .intro p {
 	font-family: 'Merienda', cursive;
@@ -24,18 +26,41 @@
 .intro hr {
 	border: 1px solid #fe4a57;
 }
-
-.intro div {
-	position: relative;
+.about-personal {
+	display: flex;
+}
+.about-personal div {
+	/* position: relative; */
 	text-align: justify;
+	width: 45%;
+	margin: 0 auto;
 }
 
-#about > h2 {
+.about-skills h2 {
+	color: #fe4a57;
+	font-family: 'The Historia Demo', sans-serif;
+	font-weight: 300;
+	font-size: 62px;
+}
+
+.about-skills li {
+	color: #f7b538;
+	font-family: 'Merienda', cursive;
+	font-weight: 300;
+	font-size: 24px;
+	list-style-type: none;
+}
+.about-skills hr {
+	width: 75%;
+	margin: 0 auto;
+}
+
+/* #about > h2 {
 	font-family: 'Merienda', cursive;
 	color: #f7b538;
 	font-size: 32px;
 	font-weight: 300;
-}
+} */
 /* ///////////////////////////////////////////// */
 
 @media screen and (max-width: 768px) {

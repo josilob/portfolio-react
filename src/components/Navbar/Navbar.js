@@ -3,9 +3,12 @@ import './Navbar.css';
 
 function Nav() {
 	const [click, setClick] = useState(false);
+	const [isHovered, setIsHovered] = useState(false);
 
 	const handleClick = () => setClick(!click);
+	const handleHover = () => setIsHovered(!isHovered);
 	const closeBurger = () => setClick(false);
+	const hoverClass = isHovered ? 'bounce' : '';
 
 	return (
 		<React.Fragment>
@@ -40,8 +43,7 @@ function Nav() {
 			</nav>
 
 			<div id='hello'>
-				<h2>Hello there!</h2>
-				<h1>I am Bojan</h1>
+				<h1>Hello there, I'm Bojan!</h1>
 				<h2>
 					I am a Full Stack Developer fueled by unconventional solutions,
 					relentlessly pursuing designs focused on capturing the user's attention and

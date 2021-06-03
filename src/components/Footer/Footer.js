@@ -6,7 +6,7 @@ function Footer() {
 		<div id='footer'>
 			<p>Bojan Josilo</p>
 			<hr className='footer-line' />
-			<p>2020</p>
+			<p>Copyright©</p>
 		</div>
 	);
 }

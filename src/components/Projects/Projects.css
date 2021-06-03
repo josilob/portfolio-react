@@ -12,6 +12,13 @@
 	font-size: 62px;
 }
 
+#projects h3 {
+	color: #f7b538;
+	font-family: 'Merienda', cursive;
+	font-weight: 300;
+	font-size: 24px;
+}
+
 .projects-div {
 	margin: 20px auto;
 	display: flex;

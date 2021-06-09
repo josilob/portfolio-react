@@ -5,14 +5,14 @@ function About() {
 	return (
 		<div id='about' className='intro'>
 			<div className='about-skills'>
-				<h2>As a web developer I can offer to:</h2>
+				<h2 className='subtitle'>As a web developer I can offer to:</h2>
 				<br />
 				<ul>
 					<li>1. Create responsive and mobile first designs</li>
 					<li>2. Build Single Page Applications with React</li>
 					<li>3. Make a Backend with Express.js and MongoDB</li>
 					<li>4. Work with functional components and React Hooks</li>
-					<li>5. Route pages with react-router-dom</li>
+					<li>5. Route on the page with react-router-dom</li>
 					<li>6. Utilize modern ES syntax and modularize the code</li>
 					<li>7. Style with CSS, SCSS or Styled Components</li>
 				</ul>
@@ -23,10 +23,10 @@ function About() {
 			<div className='about-personal'>
 				<div>
 					<p>
-						I'm a Web Developer with background in civil engineering, coming from the
-						Lake Placid area. At the crossroads between creativity and logic, I am
-						fueled by inspirational designs, server-side architecture and integration
-						of everything in one functional bond. Relentless spirit and curious mind
+						I'm a Web Developer with BSc in Civil Engineering, coming from the Lake
+						Placid area. At the crossroads between creativity and logic, I am fueled
+						by inspirational designs, server-side architecture and integration of
+						everything in one functional bond. Relentless spirit and curious mind
 						persuing big dreams.
 					</p>
 					<br />

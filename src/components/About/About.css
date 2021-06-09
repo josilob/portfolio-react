@@ -1,12 +1,8 @@
 #about {
-	/* min-height: calc(100vh - 120px); */
 	max-width: 1600px;
 	margin: 0 auto;
 	padding-bottom: 25px;
 }
-/* /////////////////GREETING///////////////////// */
-
-/* /////////////////INTRO//////////////////////// */
 
 .intro {
 	display: grid;
@@ -16,6 +12,7 @@
 	display: flex;
 	flex-direction: column;
 }
+
 .intro p {
 	font-family: 'Merienda', cursive;
 	font-size: 24px;
@@ -23,24 +20,23 @@
 	width: 80%;
 	margin: 35px auto;
 }
+
 .intro hr {
 	border: 1px solid #fe4a57;
 }
+
 .about-personal {
 	display: flex;
 }
+
 .about-personal div {
-	/* position: relative; */
 	text-align: justify;
 	width: 45%;
-	margin: 0 auto;
+	margin: 20px auto;
 }
 
-.about-skills h2 {
-	color: #fe4a57;
-	font-family: 'The Historia Demo', sans-serif;
-	font-weight: 300;
-	font-size: 62px;
+.about-skills ul {
+	margin: 40px auto;
 }
 
 .about-skills li {
@@ -50,17 +46,12 @@
 	font-size: 24px;
 	list-style-type: none;
 }
+
 .about-skills hr {
 	width: 75%;
 	margin: 0 auto;
 }
 
-/* #about > h2 {
-	font-family: 'Merienda', cursive;
-	color: #f7b538;
-	font-size: 32px;
-	font-weight: 300;
-} */
 /* ///////////////////////////////////////////// */
 
 @media screen and (max-width: 768px) {

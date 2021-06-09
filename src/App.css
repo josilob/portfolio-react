@@ -31,6 +31,20 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.subtitle {
+	color: #fe4a57;
+	font-family: 'The Historia Demo', sans-serif;
+	font-weight: 300;
+	font-size: clamp(22px, 8vw, 84px);
+}
+
+.sub-yellow {
+	color: #f7b538;
+	font-size: clamp(22px, 2vw, 30px);
+	font-weight: 300;
+	font-family: 'Merienda', cursive;
+}
+
 .App {
 	text-align: center;
 	min-height: calc (100vh - 120px);

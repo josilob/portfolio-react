@@ -22,7 +22,7 @@ function Skills() {
 	return (
 		<div id='skills'>
 			<div>
-				<h2>My Skillset</h2>
+				<h2 className='subtitle'>My Skillset</h2>
 				<h3>Continuously improving</h3>
 			</div>
 			<div className='techstack'>

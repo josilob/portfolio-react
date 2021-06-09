@@ -126,7 +126,8 @@
 	}
 	.nav-item {
 		height: 14vh;
-		position: relative;
+		display: flex;
+		align-items: center;
 	}
 	.nav-links {
 		height: 90%;

@@ -7,8 +7,8 @@ import hops from '../../assets/imgs/Hops.png';
 function Projects() {
 	return (
 		<div id='projects'>
-			<h2>My previous projects</h2>
-			<h3>Click or hover on each to find out more:</h3>
+			<h2 className='subtitle'>My previous projects</h2>
+			<h3 className='sub-yellow'>Click or hover on each to find out more:</h3>
 			<div className='projects-div'>
 				<div className='card'>
 					<img src={cineprime} alt='projects' />

@@ -5,13 +5,6 @@
 	display: grid;
 }
 
-/* #projects h2 {
-	color: #fe4a57;
-	font-family: 'The Historia Demo', sans-serif;
-	font-weight: 300;
-	font-size: 62px;
-} */
-
 #projects h3 {
 	color: #f7b538;
 	font-family: 'Merienda', cursive;
@@ -144,19 +137,8 @@
 	text-align: center;
 	z-index: 1;
 }
-@media screen and (max-width: 1024px) {
-	/* #projects h2 {
-		font-size: 56px;
-		width: 75%;
-		margin: 0 auto;
-	} */
-}
 
 @media screen and (max-width: 768px) {
-	#projects h2 {
-		/* font-size: 48px;
-		width: 65%; */
-	}
 	.card {
 		position: relative;
 		margin-top: 50px;

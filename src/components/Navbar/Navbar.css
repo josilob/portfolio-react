@@ -51,24 +51,6 @@
 	font-weight: 500;
 }
 
-/* #hello h2 {
-	color: #f7b538;
-	font-size: clamp(22px, 2vw, 30px);
-	font-weight: 300;
-	font-family: 'Merienda', cursive;
-} */
-
-/* .nav-dev {
-	display: flex;
-	align-items: center;
-	height: 70px;
-	line-height: 20px;
-	color: #fe4a57;
-	text-decoration: none;
-	padding: 8px 15px;
-	font-family: 'The Historia Demo', sans-serif;
-} */
-
 .social-icons {
 	color: #fe4a57;
 	font-size: 32px;

@@ -22,7 +22,7 @@ function About() {
 
 			<div className='about-personal'>
 				<div>
-					<p>
+					<p className='subheading'>
 						I'm a Web Developer with BSc in Civil Engineering, coming from the Lake
 						Placid area. At the crossroads between creativity and logic, I am fueled
 						by inspirational designs, server-side architecture and integration of
@@ -33,7 +33,7 @@ function About() {
 					<hr />
 				</div>
 				<div>
-					<p>
+					<p className='subheading'>
 						Coming from the northern part of New York, I enjoy hiking trails or
 						camping during summer months. During the winter time, you will find me
 						snowshoeing or cross-country skiing through the ADK. If I am not outside,

@@ -1,8 +1,8 @@
 import './Projects.css';
 import mdl from '../../assets/imgs/MDL.png';
-import cineprime from '../../assets/imgs/cineprime.png';
+import cineprime from '../../assets/imgs/cineprime.jpg';
 import tunr from '../../assets/imgs/tunr.png';
-import hops from '../../assets/imgs/Hops.png';
+import hops from '../../assets/imgs/Hops.jpg';
 
 function Projects() {
 	return (

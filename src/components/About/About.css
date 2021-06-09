@@ -41,10 +41,9 @@
 
 .about-skills li {
 	color: #f7b538;
-	font-family: 'Merienda', cursive;
+	font-size: clamp(22px, 2vw, 30px);
 	font-weight: 300;
-	font-size: 24px;
-	list-style-type: none;
+	font-family: 'Merienda', cursive;
 }
 
 .about-skills hr {
@@ -59,10 +58,16 @@
 		display: flex;
 		flex-direction: column;
 	}
-	.intro :nth-child(1) {
+	/* .intro :nth-child(1) {
 		order: 3;
 	}
 	.intro :nth-child(3) {
 		order: 3;
+	} */
+	.about-personal div {
+		width: 95%;
+	}
+	.about-personal {
+		flex-direction: column;
 	}
 }

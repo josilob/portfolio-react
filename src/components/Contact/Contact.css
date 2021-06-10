@@ -30,7 +30,7 @@
 
 .social a {
 	color: #f7b538;
-	font-size: clamp(22px, 2vw, 30px);
+	font-size: clamp(18px, 3vw, 30px);
 	font-weight: 300;
 	font-family: 'Merienda', cursive;
 }
@@ -55,7 +55,7 @@ textarea {
 }
 
 .contact-form > input:focus,
-textarea:focus {
+.contact-form > textarea:focus {
 	border: 3px solid #f7b538;
 }
 
@@ -74,11 +74,11 @@ textarea:focus {
 }
 
 .contact-form > input:last-of-type {
+	font-family: 'The Historia Demo', sans-serif;
 	color: #fe4a57;
 	background: #1f2235;
 	text-decoration: none;
 	padding: 7px 14px;
-	font-family: 'The Historia Demo', sans-serif;
 	font-size: 26px;
 	width: 150px;
 	border-radius: 10px;
@@ -99,7 +99,6 @@ textarea:focus {
 }
 .social {
 	margin: 20px auto;
-	/* width: 100%; */
 	font-size: 28px;
 	color: #f7b538;
 }
@@ -107,8 +106,8 @@ textarea:focus {
 	padding: 10px;
 }
 .social a,
-social a:visited,
-social a:link {
+.social a:visited,
+.social a:link {
 	color: #f7b538;
 	text-decoration: none;
 }
@@ -116,8 +115,7 @@ social a:link {
 .home-top {
 	height: 40px;
 	color: #f7b538;
-	/* text-decoration: none; */
-	/* padding: 8px 15px; */
+	text-decoration: none;
 	font-family: 'Merienda', cursive;
 	width: 25%;
 	font-size: 18px;
@@ -138,4 +136,16 @@ a .home-top {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+	.form-and-social {
+		flex-direction: column-reverse;
+		margin-top: 20px;
+	}
+
+	.contact-form {
+		margin: 0 auto;
+		width: 80%;
+	}
 }

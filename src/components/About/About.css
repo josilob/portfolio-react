@@ -13,14 +13,6 @@
 	flex-direction: column;
 }
 
-.intro p {
-	font-family: 'Merienda', cursive;
-	font-size: 24px;
-	color: #f7b538;
-	width: 80%;
-	margin: 35px auto;
-}
-
 .intro hr {
 	border: 1px solid #fe4a57;
 }
@@ -41,7 +33,7 @@
 
 .about-skills li {
 	color: #f7b538;
-	font-size: clamp(22px, 2vw, 30px);
+	font-size: clamp(16px, 3vw, 30px);
 	font-weight: 300;
 	font-family: 'Merienda', cursive;
 	list-style-type: none;
@@ -52,7 +44,7 @@
 	margin: 0 auto;
 }
 
-/* ///////////////////////////////////////////// */
+/* ///////////////////TABLET////////////////////// */
 
 @media screen and (max-width: 768px) {
 	.intro {

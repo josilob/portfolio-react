@@ -16,7 +16,7 @@ function Nav() {
 
 	const listedItems = liData.map((item, idx) => (
 		<li className='nav-item' key={idx}>
-			<a href={item.href} className='nav-links' onClick={closeBurger}>
+			<a href={item.href} className='nav-link' onClick={closeBurger}>
 				{item.name}
 			</a>
 		</li>

@@ -98,8 +98,6 @@ function Skills() {
 					<img className='skill-icons' src={git} alt='skills-icon' />
 					<p className='skillName'>Git</p>
 				</div>
-
-				{/* <div className='tech-containers'></div> */}
 			</div>
 			<div className='skillset'></div>
 		</div>

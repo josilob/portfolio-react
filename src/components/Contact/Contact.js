@@ -2,7 +2,7 @@ import React from 'react';
 import emailjs from 'emailjs-com';
 import './Contact.css';
 
-function Contact() {
+const Contact = () => {
 	const sendEmail = (e) => {
 		e.preventDefault();
 
@@ -44,17 +44,18 @@ function Contact() {
 
 				<div className='social'>
 					<a href='https://github.com/josilob' target='_blank' rel='noreferrer'>
-						<i className='fab fa-github'></i>GitHub <br />
+						<i className='fab fa-github'></i> GitHub
+						<br />
 						https://github.com/josilob
 					</a>
 					<a href='mailto:bjosilo@gmail.com' target='_blank' rel='noreferrer'>
-						<i className='fas fa-envelope'></i> email <br /> bjosilo@gmail.com
+						<i className='fas fa-envelope'></i> e-mail <br /> bjosilo@gmail.com
 					</a>
 					<a
 						href='https://www.linkedin.com/in/josilo/'
 						target='_blank'
 						rel='noreferrer'>
-						<i className='fab fa-linkedin'></i>Linkedin
+						<i className='fab fa-linkedin'></i> Linkedin
 						<br />
 						https://www.linkedin.com/in/josilo/
 					</a>
@@ -65,5 +66,5 @@ function Contact() {
 			</a>
 		</div>
 	);
-}
+};
 export default Contact;

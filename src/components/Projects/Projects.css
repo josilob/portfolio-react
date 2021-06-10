@@ -1,5 +1,4 @@
 #projects {
-	margin-bottom: 120px;
 	padding-top: 0px;
 	min-height: 50vh;
 	display: grid;
@@ -138,6 +137,9 @@
 	z-index: 1;
 }
 
+/* //////////////////////////////////// */
+/* /////////////////TABLET///////////// */
+/* //////////////////////////////////// */
 @media screen and (max-width: 768px) {
 	.card {
 		position: relative;
@@ -186,6 +188,9 @@
 	}
 }
 
+/* //////////////////////////////////// */
+/* ///////////////PHONES/////////////// */
+/* //////////////////////////////////// */
 @media screen and (max-width: 540px) {
 	.card {
 		margin-top: 50px;

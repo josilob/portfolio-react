@@ -34,10 +34,11 @@ function Nav() {
 
 			<div id='hello'>
 				<h1>Hello there, I'm Bojan!</h1>
+
 				<h2 className='subheading'>
-					I am a Full Stack Developer fueled by unconventional solutions,
-					relentlessly pursuing designs focused on capturing the user's attention and
-					thoughtful navigation.
+					Fueled by unconventional solutions, I am a Full Stack Web Developer who
+					relentlessly pursues creating designs focused on capturing user’s attention
+					and thoughtful navigation.
 				</h2>
 			</div>
 		</React.Fragment>
@@ -45,28 +46,3 @@ function Nav() {
 }
 
 export default Nav;
-
-{
-	// replaced with mapped data
-	/* <li className='nav-item'>
-						<a href='#projects' className='nav-links' onClick={closeBurger}>
-							My Work
-						</a>
-					</li>
-					<li className='nav-item '>
-						<a href='#about' className='nav-links' onClick={closeBurger}>
-							About
-						</a>
-					</li>
-					<li className='nav-item'>
-						<a href='#skills' className='nav-links' onClick={closeBurger}>
-							Techstack
-						</a>
-					</li>
-
-					<li className='nav-item'>
-						<a href='#contact' className='nav-links' onClick={closeBurger}>
-							Contact
-						</a>
-					</li> */
-}

@@ -31,7 +31,7 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.subtitle {
+.subtitle--red {
 	color: #fe4a57;
 	font-family: 'The Historia Demo', sans-serif;
 	font-weight: 300;

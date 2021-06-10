@@ -5,8 +5,7 @@ function About() {
 	return (
 		<div id='about' className='intro'>
 			<div className='about-skills'>
-				<h2 className='subtitle'>As a web developer I can offer to:</h2>
-				<br />
+				<h2 className='subtitle--red'>As a web developer I can offer to:</h2>
 				<ul>
 					<li>1. Create responsive and mobile first designs</li>
 					<li>2. Build Single Page Applications with React</li>

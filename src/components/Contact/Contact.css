@@ -1,29 +1,47 @@
-#contact {
-	display: grid;
+.contact {
 	display: flex;
 	flex-direction: column;
-	width: 40vw;
-	max-width: 800px;
-	min-width: 360px;
 	margin: 0 auto;
-	margin-bottom: 100px;
+	width: 95%;
 }
 
-#contact {
+.form-and-social {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+.contact-form {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	justify-content: center;
+	max-width: 700px;
+	min-width: 360px;
+}
+
+.social {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.social a {
+	color: #f7b538;
+	font-size: clamp(22px, 2vw, 30px);
+	font-weight: 300;
+	font-family: 'Merienda', cursive;
+}
+
+.contact-form {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 }
 
-#contact > h2 {
-	margin-bottom: 30px;
-	color: #fe4a57;
-	font-family: 'The Historia Demo', sans-serif;
-	font-weight: 300;
-	font-size: 40px;
-}
-
-#contact > input,
+.contact-form > input,
 textarea {
 	padding: 10px;
 	border-radius: 3px;
@@ -36,18 +54,18 @@ textarea {
 	border: 3px solid #fe4a57;
 }
 
-#contact > input:focus,
+.contact-form > input:focus,
 textarea:focus {
 	border: 3px solid #f7b538;
 }
 
-#contact > textarea {
+.contact-form > textarea {
 	height: 150px;
 	max-width: 100%;
 	min-height: 100px;
 }
 
-#contact > label {
+.contact-form > label {
 	padding-bottom: 5px;
 	color: #f7b538;
 	font-weight: bold;
@@ -55,7 +73,7 @@ textarea:focus {
 	font-size: 18px;
 }
 
-#contact > input:last-of-type {
+.contact-form > input:last-of-type {
 	color: #fe4a57;
 	background: #1f2235;
 	text-decoration: none;
@@ -67,7 +85,7 @@ textarea:focus {
 	margin: 0 auto;
 }
 
-#contact > input:last-of-type:hover {
+.contact-form > input:last-of-type:hover {
 	background-color: #f7b538;
 	color: #1f2235;
 	transition: all 0.3s ease-out;
@@ -79,18 +97,18 @@ textarea:focus {
 	font-family: 'Merienda', cursive;
 	font-size: 12px;
 }
-.contact-info {
+.social {
 	margin: 20px auto;
-	width: 100%;
+	/* width: 100%; */
 	font-size: 28px;
 	color: #f7b538;
 }
-.contact-info > * {
+.social > * {
 	padding: 10px;
 }
-.contact-info a,
-contact-info a:visited,
-contact-info a:link {
+.social a,
+social a:visited,
+social a:link {
 	color: #f7b538;
 	text-decoration: none;
 }
@@ -104,7 +122,7 @@ contact-info a:link {
 	width: 25%;
 	font-size: 18px;
 	min-width: 250px;
-	margin: 0 auto;
+	margin: 50px auto;
 	border: 1px #f7b538 solid;
 	border-radius: 8px;
 }

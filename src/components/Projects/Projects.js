@@ -7,7 +7,7 @@ import hops from '../../assets/imgs/Hops.jpg';
 function Projects() {
 	return (
 		<div id='projects'>
-			<h2 className='subtitle'>My previous projects</h2>
+			<h2 className='subtitle--red'>My previous projects</h2>
 			<h3 className='sub-yellow'>Click or hover on each to find out more:</h3>
 			<div className='projects-div'>
 				<div className='card'>
@@ -90,9 +90,8 @@ function Projects() {
 					<p className='title'>TUNR</p>
 					<br />
 					<p className='proj-description'>
-						One of my first full stack projects. This one is built with Ruby on Rails
-						in the back end. You may add, remove and edit the playlist, or mark songs
-						as your favorites. Backend hosted with Heroku, front with Netlify.
+						Project is built with Ruby on Rails in the back end. It offers basic CRUD
+						functionality with Heroku hosted Backend and frontend with Netlify.
 					</p>
 					<div className='overlay'></div>
 					<div className='button-wrap'>

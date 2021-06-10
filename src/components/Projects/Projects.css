@@ -89,7 +89,7 @@
 
 .proj-description {
 	font-family: 'Merienda', cursive;
-	font-size: 18px;
+	font-size: clamp(15px, 2vw, 18px);
 	text-align: center;
 	padding: 0 30px;
 	line-height: 1.5;
@@ -167,11 +167,9 @@
 		margin: 0 auto;
 	}
 	.proj-description {
-		font-size: 16px;
 		padding: 0;
 		opacity: 1;
 		top: 60px;
-		line-height: 1.5;
 		width: 100%;
 		margin: 0 auto;
 	}
@@ -189,10 +187,6 @@
 }
 
 @media screen and (max-width: 540px) {
-	#projects h2 {
-		/* font-size: 40px;
-		width: 65%; */
-	}
 	.card {
 		margin-top: 50px;
 		width: 360px;
@@ -216,9 +210,5 @@
 	.button-wrap {
 		opacity: 1;
 		width: 360px;
-	}
-	.proj-description {
-		font-size: 15px;
-		margin: 0 auto;
 	}
 }

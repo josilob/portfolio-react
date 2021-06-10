@@ -99,7 +99,7 @@ function Skills() {
 					<p className='skillName'>Git</p>
 				</div>
 
-				<div className='tech-containers'></div>
+				{/* <div className='tech-containers'></div> */}
 			</div>
 			<div className='skillset'></div>
 		</div>

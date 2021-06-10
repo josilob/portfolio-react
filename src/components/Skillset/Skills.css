@@ -39,25 +39,31 @@
 }
 
 @media screen and (max-width: 1024px) {
+	#skills {
+		padding: 40px;
+	}
 	.techstack {
-		width: 90%;
+		width: 95%;
 	}
 
 	.tech-icons {
-		margin: 10px 10px;
+		margin: 5px 5px;
 		border-radius: 5px;
 	}
 	.tech-icons img {
-		margin: 8px 18px;
+		margin: 5px 5px;
 		max-height: 75px;
 	}
 }
 @media screen and (max-width: 720px) {
+	#skills {
+		padding: 15px;
+	}
 	.techstack {
-		width: 95%;
+		width: 99%;
 	}
 	.tech-icons img {
 		margin: 5px 12px;
-		max-height: 55px;
+		max-height: 40px;
 	}
 }

@@ -53,6 +53,33 @@
 	justify-content: center;
 }
 
+.contact-form :nth-child(1) {
+	order: 2;
+}
+.contact-form :nth-child(2) {
+	order: 1;
+}
+.contact-form :nth-child(3) {
+	order: 4;
+}
+.contact-form :nth-child(4) {
+	order: 3;
+}
+.contact-form :nth-child(5) {
+	order: 6;
+}
+.contact-form :nth-child(6) {
+	order: 5;
+}
+.contact-form :nth-child(7) {
+	order: 7;
+}
+
+input:focus + label,
+textarea:focus + label {
+	color: #fe4a57;
+}
+
 .contact-form > input,
 textarea {
 	padding: 10px;

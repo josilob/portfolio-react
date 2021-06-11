@@ -33,12 +33,12 @@ const Contact = () => {
 
 			<div className='form-and-social'>
 				<form className='contact-form' onSubmit={sendEmail}>
-					<label>Name</label>
 					<input placeholder='Your name' type='text' name='name' required />
-					<label>Email</label>
+					<label id='name-label'>Name</label>
 					<input placeholder='Your email' type='email' name='email' required />
-					<label>Message</label>
+					<label id='email-label'>Email</label>
 					<textarea placeholder='Message' type='text' name='message' required />
+					<label id='message-label'>Message</label>
 					<input type='submit' value='Submit' />
 				</form>
 

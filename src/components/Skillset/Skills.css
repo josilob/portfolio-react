@@ -6,10 +6,6 @@
 	text-align: center;
 }
 
-#skills div {
-	line-height: 2;
-}
-
 .techstack {
 	display: flex;
 	flex-flow: row;

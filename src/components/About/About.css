@@ -4,7 +4,7 @@
 	padding-bottom: 25px;
 }
 
-.intro {
+.about {
 	display: grid;
 	grid-template-columns: 2fr 1fr 2fr;
 	position: relative;
@@ -13,8 +13,10 @@
 	flex-direction: column;
 }
 
-.intro hr {
+.about hr {
 	border: 1px solid #fe4a57;
+
+	margin: 0 auto;
 }
 
 .about-personal {
@@ -23,33 +25,36 @@
 
 .about-personal div {
 	text-align: justify;
-	width: 45%;
+	width: 60%;
 	margin: 20px auto;
 }
 
 .about-skills ul {
 	margin: 40px auto;
 }
+.about-skills hr {
+	width: 50vw;
+}
 
 .about-skills li {
 	color: #f7b538;
-	font-size: clamp(16px, 3vw, 30px);
+	font-size: clamp(16px, 3vw, 24px);
 	font-weight: 300;
 	font-family: 'Merienda', cursive;
 	list-style-type: none;
 }
 
-.about-skills hr {
-	width: 75%;
+.about-personal div hr {
 	margin: 0 auto;
 }
 
 /* ///////////////////TABLET////////////////////// */
 
 @media screen and (max-width: 768px) {
-	.intro {
+	.about {
 		display: flex;
 		flex-direction: column;
+		padding-top: 50px;
 	}
 
 	.about-personal div {
@@ -57,5 +62,13 @@
 	}
 	.about-personal {
 		flex-direction: column;
+	}
+}
+
+/* ///////////////////PHONES////////////////////// */
+
+@media screen and (max-width: 450px) {
+	.about {
+		padding-top: 20px;
 	}
 }

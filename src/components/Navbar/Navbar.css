@@ -30,15 +30,17 @@
 	font-size: 34px;
 }
 
-#navbar h2 {
-	padding-left: 30px;
+#hello h2 {
+	margin: 0 auto;
+	max-width: 900px;
+	padding-top: 30px;
 }
 
 #hello {
 	font-size: 24px;
 	color: #f7b538;
 	font-family: 'Merienda', cursive;
-	padding-top: 30px;
+	padding-bottom: 30px;
 	max-width: 90%;
 	margin: 50px auto;
 }

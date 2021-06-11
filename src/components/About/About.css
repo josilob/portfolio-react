@@ -15,8 +15,8 @@
 
 .about hr {
 	border: 1px solid #fe4a57;
-
 	margin: 0 auto;
+	max-width: 65vw;
 }
 
 .about-personal {
@@ -25,15 +25,12 @@
 
 .about-personal div {
 	text-align: justify;
-	width: 60%;
+	width: 65%;
 	margin: 20px auto;
 }
 
 .about-skills ul {
 	margin: 40px auto;
-}
-.about-skills hr {
-	width: 50vw;
 }
 
 .about-skills li {
@@ -58,10 +55,13 @@
 	}
 
 	.about-personal div {
-		width: 95%;
+		width: 80%;
 	}
 	.about-personal {
 		flex-direction: column;
+	}
+	.about hr {
+		max-width: 80vw;
 	}
 }
 

@@ -91,6 +91,10 @@
 	#navbar {
 		position: relative;
 	}
+
+	#hello {
+		margin-top: 25px;
+	}
 	.nav-menu {
 		display: flex;
 		flex-direction: column;
@@ -128,10 +132,11 @@
 	}
 
 	.nav-link {
-		text-align: center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 		padding: 16px;
 		width: 100vw;
-		display: table;
 		font-size: 30px;
 		margin-left: 0px;
 	}

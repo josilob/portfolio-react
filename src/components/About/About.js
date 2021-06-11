@@ -23,12 +23,12 @@ const About = () => {
 			<div className='about-personal'>
 				<div>
 					<p className='subheading'>
-						I'm a Web Developer with B.S. in Civil Engineering, currently located in
-						the Northern NY State. At the crossroads between creativity and logic, I
-						am fueled by inspirational designs, server-side architecture and
-						integration of everything in one functional bond. Relentless spirit and
-						curious mind persuing full time job opportunity. If I am not outside, I
-						enjoy playing PC games, solving sudoku or working on crossword puzzles.
+						I'm a Web Developer that's currently located in the Northern NY State. At
+						the crossroads between creativity and logic, I am fueled by inspirational
+						designs, server-side architecture and integration of everything in one
+						functional bond. Relentless spirit and curious mind pursuing full time job
+						opportunity. If I am not outside, I enjoy playing PC games, solving sudoku
+						or crossword puzzle.
 					</p>
 					<br />
 					<hr />

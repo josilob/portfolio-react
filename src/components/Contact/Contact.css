@@ -29,13 +29,6 @@
 	align-items: center;
 }
 
-.social a {
-	color: #f7b538;
-	font-size: clamp(18px, 2vw, 30px);
-	font-weight: 300;
-	font-family: 'Merienda', cursive;
-}
-
 .social a,
 .social a:visited,
 .social a:link {

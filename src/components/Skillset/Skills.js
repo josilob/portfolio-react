@@ -23,7 +23,7 @@ function Skills() {
 		<div id='skills'>
 			<div>
 				<h2 className='subtitle--red'>My Skillset</h2>
-				<h3 className='subheading'>Continuously improving</h3>
+				<h3 className='sub-yellow'>Continuously improving</h3>
 			</div>
 			<div className='techstack'>
 				<div className='tech-icons'>

@@ -43,22 +43,33 @@ const Contact = () => {
 				</form>
 
 				<div className='social'>
-					<a href='https://github.com/josilob' target='_blank' rel='noreferrer'>
-						<i className='fab fa-github'></i> GitHub:
-						<br />
-						https://github.com/josilob
+					<a
+						className='sub-yellow--larger'
+						href='https://drive.google.com/file/d/1IpFxMIsYDa8CduHD9v_h9QjFai672Hfj/view?usp=sharing'
+						target='_blank'
+						rel='noreferrer'>
+						<i class='fas fa-file-pdf'></i> Resume
 					</a>
-					<a href='mailto:bjosilo@gmail.com' target='_blank' rel='noreferrer'>
-						<i className='fas fa-envelope'></i> E-mail: <br /> bjosilo@gmail.com
+
+					<a
+						className='sub-yellow--larger'
+						href='https://github.com/josilob'
+						target='_blank'
+						rel='noreferrer'>
+						<i className='fab fa-github'></i> GitHub
 					</a>
 					<a
+						className='sub-yellow--larger'
 						href='https://www.linkedin.com/in/josilo/'
 						target='_blank'
 						rel='noreferrer'>
-						<i className='fab fa-linkedin'></i> Linkedin:
-						<br />
-						https://www.linkedin.com/in/josilo/
+						<i className='fab fa-linkedin'></i> Linkedin
 					</a>
+					<h2 className='sub-yellow--larger'>
+						E-mail:
+						<br />
+						<i className='fas fa-envelope'></i> bjosilo@gmail.com
+					</h2>
 				</div>
 			</div>
 			<a href='#navbar' style={{ textDecoration: 'none' }}>

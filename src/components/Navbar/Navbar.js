@@ -35,7 +35,7 @@ function Nav() {
 			<div id='hello'>
 				<h1>Hello there, I'm Bojan!</h1>
 
-				<h2 className='subheading'>
+				<h2 className='sub-yellow--larger'>
 					Fueled by unconventional solutions, I am a Full Stack Web Developer who
 					relentlessly pursues creating designs focused on capturing user’s attention
 					and thoughtful navigation.

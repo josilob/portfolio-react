@@ -22,7 +22,7 @@ const About = () => {
 
 			<div className='about-personal'>
 				<div>
-					<p className='subheading'>
+					<p className='sub-yellow'>
 						I'm a Web Developer that's currently located in the Northern NY State. At
 						the crossroads between creativity and logic, I am fueled by inspirational
 						designs, server-side architecture and integration of everything in one

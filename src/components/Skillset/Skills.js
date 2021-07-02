@@ -5,7 +5,6 @@ import css from '../../assets/imgs/css.png';
 import express from '../../assets/imgs/express.png';
 import git from '../../assets/imgs/git.png';
 import javascript from '../../assets/imgs/JavaScript.png';
-import materialize from '../../assets/imgs/materialize.png';
 import materialUI from '../../assets/imgs/materialui.png';
 import mongo from '../../assets/imgs/mongo.png';
 import mongoose from '../../assets/imgs/mongoose.jpeg';
@@ -45,10 +44,6 @@ function Skills() {
 				<div className='tech-icons'>
 					<img className='skill-icons' src={bootstrap} alt='skills-icon' />
 					<p className='skillName'>Bootstrap</p>
-				</div>
-				<div className='tech-icons'>
-					<img className='skill-icons' src={materialize} alt='skills-icon' />
-					<p className='skillName'>MaterializeCSS</p>
 				</div>
 				<div className='tech-icons'>
 					<img className='skill-icons' src={materialUI} alt='skills-icon' />

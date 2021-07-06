@@ -42,22 +42,6 @@ function Skills() {
 					<p className='skillName'>React</p>
 				</div>
 				<div className='tech-icons'>
-					<img className='skill-icons' src={bootstrap} alt='skills-icon' />
-					<p className='skillName'>Bootstrap</p>
-				</div>
-				<div className='tech-icons'>
-					<img className='skill-icons' src={materialUI} alt='skills-icon' />
-					<p className='skillName'>Material UI</p>
-				</div>
-				<div className='tech-icons'>
-					<img className='skill-icons' src={styledComponents} alt='skills-icon' />
-					<p className='skillName'>Styled Components</p>
-				</div>
-				<div className='tech-icons'>
-					<img className='skill-icons' src={restApi} alt='skills-icon' />
-					<p className='skillName'>RESTful API</p>
-				</div>
-				<div className='tech-icons'>
 					<img className='skill-icons' src={node} alt='skills-icon' />
 					<p className='skillName'>NodeJS</p>
 				</div>
@@ -70,25 +54,42 @@ function Skills() {
 					<p className='skillName'>MongoDB</p>
 				</div>
 				<div className='tech-icons'>
-					<img className='skill-icons' src={mongoose} alt='skills-icon' />
-					<p className='skillName'>Mongoose</p>
+					<img className='skill-icons' src={bootstrap} alt='skills-icon' />
+					<p className='skillName'>Bootstrap</p>
 				</div>
 				<div className='tech-icons'>
+					<img className='skill-icons' src={materialUI} alt='skills-icon' />
+					<p className='skillName'>Material UI</p>
+				</div>
+
+				{/* <div className='tech-icons'>
+					<img className='skill-icons' src={mongoose} alt='skills-icon' />
+					<p className='skillName'>Mongoose</p>
+				</div> */}
+				{/* <div className='tech-icons'>
 					<img className='skill-icons' src={ruby} alt='skills-icon' />
 					<p className='skillName'>Ruby</p>
 				</div>
 				<div className='tech-icons'>
 					<img className='skill-icons' src={rails} alt='skills-icon' />
 					<p className='skillName'>Rails</p>
-				</div>
+				</div> */}
 				<div className='tech-icons'>
 					<img className='skill-icons' src={psql} alt='skills-icon' />
 					<p className='skillName'>Postgress</p>
 				</div>
 				<div className='tech-icons'>
+					<img className='skill-icons' src={styledComponents} alt='skills-icon' />
+					<p className='skillName'>Styled Components</p>
+				</div>
+				<div className='tech-icons'>
+					<img className='skill-icons' src={restApi} alt='skills-icon' />
+					<p className='skillName'>RESTful API</p>
+				</div>
+				{/* <div className='tech-icons'>
 					<img className='skill-icons' src={postman} alt='skills-icon' />
 					<p className='skillName'>Postman</p>
-				</div>
+				</div> */}
 				<div className='tech-icons'>
 					<img className='skill-icons' src={git} alt='skills-icon' />
 					<p className='skillName'>Git</p>

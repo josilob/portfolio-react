@@ -15,7 +15,7 @@
 .project-card {
 	height: 200px;
 	width: 380px;
-	border-radius: 5px;
+	border-radius: 25px;
 	margin-bottom: 20px;
 	position: relative;
 }
@@ -35,9 +35,33 @@
 	margin-top: 50px;
 	width: 500px;
 	height: 300px;
+	/* background-image: '../../assets/imgs/MDL.png'; */
 	border-radius: 20px;
 	font-family: 'The Historia Demo', sans-serif;
-	overflow: hidden;
+	/* overflow: hidden; */
+}
+
+.card::before {
+	content: '';
+	position: absolute;
+	top: -4px;
+	right: -4px;
+	bottom: -4px;
+	left: -4px;
+	background: linear-gradient(315deg, #f7b538, #0e153800, #fe4a57);
+	transform: skewX(5deg) skewY(5deg);
+}
+
+.card::after {
+	content: '';
+	position: absolute;
+	top: -4px;
+	right: -4px;
+	bottom: -4px;
+	left: -4px;
+	background: linear-gradient(315deg, #f7b538, #0e153800, #fe4a57);
+	transform: skewX(5deg) skewY(5deg);
+	filter: blur(29px);
 }
 
 .overlay {
@@ -48,6 +72,7 @@
 	height: 100%;
 	background: rgba(0, 0, 0, 0);
 	transition: all 0.5s ease;
+	z-index: 3;
 }
 
 .card:hover .overlay {
@@ -60,6 +85,7 @@
 	width: 500px;
 	height: 300px;
 	left: 0;
+	z-index: 3;
 }
 
 .title,
@@ -70,7 +96,7 @@
 	font-weight: 300;
 	text-align: center;
 	transition: top 0.5s ease;
-	z-index: 1;
+	z-index: 5;
 	opacity: 0;
 }
 
@@ -108,6 +134,7 @@
 	text-align: center;
 	opacity: 0;
 	transition: opacity 0.35s ease;
+	z-index: 5;
 }
 .card:hover .button-wrap {
 	opacity: 1;
@@ -115,6 +142,7 @@
 .btn {
 	background-color: #1f2235;
 	color: #fe4a57;
+	z-index: 5;
 }
 .btn:hover {
 	cursor: pointer;
@@ -141,7 +169,7 @@
 		height: 280px;
 		border-radius: 20px;
 		font-family: 'The Historia Demo', sans-serif;
-		overflow: hidden;
+		/* overflow: hidden; */
 	}
 	.card img {
 		width: 420px;
@@ -190,7 +218,7 @@
 		width: 360px;
 		height: 240px;
 		border-radius: 20px;
-		overflow: hidden;
+		/* overflow: hidden; */
 	}
 	.card img {
 		width: 360px;

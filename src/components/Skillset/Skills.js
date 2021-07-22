@@ -1,20 +1,23 @@
 import './Skills.css';
-import html from '../../assets/imgs/html.png';
+import htmlSvg from '../../assets/imgs/html.svg';
+import cssSvg from '../../assets/imgs/css.svg';
+import jsSvg from '../../assets/imgs/js.svg';
+// import html from '../../assets/imgs/html.png';
 import bootstrap from '../../assets/imgs/bootstrap.png';
-import css from '../../assets/imgs/css.png';
+// import css from '../../assets/imgs/css.png';
 import express from '../../assets/imgs/express.png';
 import git from '../../assets/imgs/git.png';
-import javascript from '../../assets/imgs/JavaScript.png';
+// import javascript from '../../assets/imgs/JavaScript.png';
 import materialUI from '../../assets/imgs/materialui.png';
-import mongo from '../../assets/imgs/mongo.png';
-import mongoose from '../../assets/imgs/mongoose.jpeg';
-import node from '../../assets/imgs/node.png';
-import postman from '../../assets/imgs/postman.png';
+import mongo from '../../assets/imgs/mongodb.svg';
+// import mongoose from '../../assets/imgs/mongoose.jpeg';
+import node from '../../assets/imgs/node-js.svg';
+// import postman from '../../assets/imgs/postman.png';
 import psql from '../../assets/imgs/psql.png';
-import rails from '../../assets/imgs/rails.png';
-import react from '../../assets/imgs/React.png';
+// import rails from '../../assets/imgs/rails.png';
+import react from '../../assets/imgs/react-js.svg';
 import restApi from '../../assets/imgs/restAPI.png';
-import ruby from '../../assets/imgs/ruby.png';
+// import ruby from '../../assets/imgs/ruby.png';
 import styledComponents from '../../assets/imgs/styled-components.png';
 
 function Skills() {
@@ -26,15 +29,15 @@ function Skills() {
 			</div>
 			<div className='techstack'>
 				<div className='tech-icons'>
-					<img className='skill-icons' src={html} alt='skills-icon' />
+					<img className='skill-icons' src={htmlSvg} alt='skills-icon' />
 					<p className='skillName'>HTML</p>
 				</div>
 				<div className='tech-icons'>
-					<img className='skill-icons' src={css} alt='skills-icon' />
+					<img className='skill-icons' src={cssSvg} alt='skills-icon' />
 					<p className='skillName'>CSS</p>
 				</div>
 				<div className='tech-icons'>
-					<img className='skill-icons' src={javascript} alt='skills-icon' />
+					<img className='skill-icons' src={jsSvg} alt='skills-icon' />
 					<p className='skillName'>JavaScript</p>
 				</div>
 				<div className='tech-icons'>

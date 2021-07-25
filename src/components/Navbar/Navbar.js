@@ -36,10 +36,9 @@ function Nav() {
 				<h1>Hello there, I'm Bojan!</h1>
 
 				<h2 className='sub-yellow--larger'>
-					I am a Full Stack Developer looking to leverage proficiency in
-					Javascript, learn new technologies and pursue designs focused on
-					capturing the user's attention while enacting change, and encouraging
-					connection.
+					Full-stack developer, puzzle solver, occasional daydreamer and chocolate
+					connoisseur. Curious and focused on learning in all aspects of life. Adept
+					at working under pressure and acquiring new skills.
 				</h2>
 			</div>
 		</React.Fragment>

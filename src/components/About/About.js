@@ -28,7 +28,7 @@ const About = () => {
 						designs, server-side architecture and integration of everything in one
 						functional bond. Relentless spirit and curious mind pursuing full time job
 						opportunity. If I am not outside, I enjoy playing PC games, solving sudoku
-						or crossword puzzle.
+						or crossword puzzles.
 					</p>
 					<br />
 					<hr />

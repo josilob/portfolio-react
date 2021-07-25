@@ -45,7 +45,7 @@ const Contact = () => {
 				<div className='social'>
 					<a
 						className='sub-yellow--larger'
-						href='https://drive.google.com/file/d/1R9CLea5MNRFSd0Zr2fCYNVP-WICXsa_i/view?usp=sharing'
+						href='https://drive.google.com/file/d/1XI8ULo3X8ZIEZAUQsM0c9fd1c_41w8Ri/view?usp=sharing'
 						target='_blank'
 						rel='noreferrer'>
 						<i class='fas fa-file-pdf'></i> Resume

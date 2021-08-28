@@ -44,24 +44,24 @@
 .card::before {
 	content: '';
 	position: absolute;
-	top: -4px;
-	right: -4px;
-	bottom: -4px;
-	left: -4px;
+	top: -9px;
+	right: -7px;
+	bottom: -9px;
+	left: -7px;
 	background: linear-gradient(315deg, #f7b538, #0e153800, #fe4a57);
-	transform: skewX(5deg) skewY(5deg);
+	transform: skewX(3deg) skewY(3deg);
 }
 
 .card::after {
 	content: '';
 	position: absolute;
-	top: -4px;
-	right: -4px;
-	bottom: -4px;
-	left: -4px;
+	top: -10px;
+	right: -10px;
+	bottom: -12px;
+	left: -10px;
 	background: linear-gradient(315deg, #f7b538, #0e153800, #fe4a57);
-	transform: skewX(5deg) skewY(5deg);
-	filter: blur(29px);
+	transform: skewX(3deg) skewY(3deg);
+	filter: blur(15px);
 }
 
 .overlay {

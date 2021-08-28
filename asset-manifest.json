@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.fb7359db.chunk.css",
-    "main.js": "/portfolio/static/js/main.60cee76b.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.60cee76b.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.1c0d752e.chunk.css",
+    "main.js": "/portfolio/static/js/main.fccdbae3.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.fccdbae3.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.8fed2963.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.8fed2963.js.map",
     "static/js/2.ef946796.chunk.js": "/portfolio/static/js/2.ef946796.chunk.js",
     "static/js/2.ef946796.chunk.js.map": "/portfolio/static/js/2.ef946796.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.fb7359db.chunk.css.map": "/portfolio/static/css/main.fb7359db.chunk.css.map",
+    "static/css/main.1c0d752e.chunk.css.map": "/portfolio/static/css/main.1c0d752e.chunk.css.map",
     "static/js/2.ef946796.chunk.js.LICENSE.txt": "/portfolio/static/js/2.ef946796.chunk.js.LICENSE.txt",
     "static/media/Hops.b0bfabbe.jpg": "/portfolio/static/media/Hops.b0bfabbe.jpg",
     "static/media/MDL.74781c49.png": "/portfolio/static/media/MDL.74781c49.png",
@@ -30,7 +30,7 @@
   "entrypoints": [
     "static/js/runtime-main.8fed2963.js",
     "static/js/2.ef946796.chunk.js",
-    "static/css/main.fb7359db.chunk.css",
-    "static/js/main.60cee76b.chunk.js"
+    "static/css/main.1c0d752e.chunk.css",
+    "static/js/main.fccdbae3.chunk.js"
   ]
 }

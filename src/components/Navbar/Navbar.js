@@ -36,9 +36,9 @@ function Nav() {
 				<h1>Hello there, I'm Bojan!</h1>
 
 				<h2 className='sub-yellow--larger'>
-					Full-stack developer, puzzle solver, occasional daydreamer and chocolate
-					connoisseur. Curious and focused on learning in all aspects of life. Adept
-					at working under pressure and acquiring new skills.
+					Civil engineer by degree, a web developer by choice, and a tech nerd by
+					obsession. Curious and focused on learning in all aspects of life. Adept at
+					acquiring new skills and building interactive web pages.
 				</h2>
 			</div>
 		</React.Fragment>
